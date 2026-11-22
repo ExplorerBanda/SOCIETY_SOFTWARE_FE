@@ -1,0 +1,176 @@
+{
+  "id": "adjustment",
+  "name": "Adjustment",
+  "title": "Adjustment",
+  "category": "Transactions and vouchers",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/Adjustment.cs",
+  "line": 11,
+  "fields": [
+    {
+      "name": "St",
+      "label": "St",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": false,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Particular",
+      "label": "Particular",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Amount",
+      "label": "Amount",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Refno",
+      "label": "Refno",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Memno",
+      "label": "Memno",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Vdate",
+      "label": "Vdate",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Glcode",
+      "label": "Glcode",
+      "type": "select",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "CB",
+      "label": "Glcode",
+      "type": "select",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "_memno",
+      "label": "Memno",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Save",
+      "label": "Save",
+      "handler": "Save_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Cancel",
+      "label": "Cancel",
+      "handler": "Cancel_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Delete",
+      "label": "Delete",
+      "handler": "Delete_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Search",
+      "label": "Search",
+      "handler": "Search_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "DG",
+      "columns": []
+    }
+  ],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 3,
+  "screenConfidence": "source-backed"
+}

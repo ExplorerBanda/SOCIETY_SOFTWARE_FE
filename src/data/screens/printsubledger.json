@@ -1,0 +1,105 @@
+{
+  "id": "printsubledger",
+  "name": "PrintSubledger",
+  "title": "",
+  "category": "Reports and print workflows",
+  "source": "recovered/decompiled/Reporter/QuickTC.Reports/PrintSubledger.cs",
+  "line": 14,
+  "fields": [
+    {
+      "name": "Slcode",
+      "label": "SL Code",
+      "type": "select",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "Glcode",
+      "label": "GL Code",
+      "type": "select",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "Udate",
+      "label": "Upto Date",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Fdate",
+      "label": "From Date",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Refno",
+      "label": "Refno",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Cancel",
+      "label": "Cancel",
+      "handler": "Cancel_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Print",
+      "label": "Print",
+      "handler": "Print_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepPersonalLedgerSL_A"
+      ]
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 0,
+  "screenConfidence": "source-backed"
+}

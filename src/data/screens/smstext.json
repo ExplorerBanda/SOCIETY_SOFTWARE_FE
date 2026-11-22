@@ -1,0 +1,1177 @@
+{
+  "id": "smstext",
+  "name": "SMSText",
+  "title": "SMSText",
+  "category": "Administration and utilities",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/SMSText.cs",
+  "line": 10,
+  "fields": [
+    {
+      "name": "cmbeventname",
+      "label": "Event Name",
+      "type": "select",
+      "section": "Sms Type",
+      "tab": "Registration",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "txtmsg",
+      "label": "Event Content",
+      "type": "textarea",
+      "section": "Sms Type",
+      "tab": "Registration",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "cmbeventnamefd",
+      "label": "Event Name",
+      "type": "select",
+      "section": "Sms Type",
+      "tab": "FD",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "txtmsgfd",
+      "label": "Event Content",
+      "type": "textarea",
+      "section": "Sms Type",
+      "tab": "FD",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "cmbrdevent",
+      "label": "Event Name",
+      "type": "select",
+      "section": "Sms Type",
+      "tab": "RD",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "txtrdcontent",
+      "label": "Event Content",
+      "type": "textarea",
+      "section": "Sms Type",
+      "tab": "RD",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "cmbmis",
+      "label": "Event Name",
+      "type": "select",
+      "section": "Sms Type",
+      "tab": "MIS",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "txtmis",
+      "label": "Event Content",
+      "type": "textarea",
+      "section": "Sms Type",
+      "tab": "MIS",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "cmbdepname",
+      "label": "Event Name",
+      "type": "select",
+      "section": "Sms Type",
+      "tab": "Deposit",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "txtdepcontent",
+      "label": "Event Content",
+      "type": "textarea",
+      "section": "Sms Type",
+      "tab": "Deposit",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "cmbchq",
+      "label": "Event Name",
+      "type": "select",
+      "section": "Sms Type",
+      "tab": "Cheque",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "txtchq",
+      "label": "Event Content",
+      "type": "textarea",
+      "section": "Sms Type",
+      "tab": "Cheque",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "cmbloan",
+      "label": "Event Name",
+      "type": "select",
+      "section": "Sms Type",
+      "tab": "Loan",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "txtloancontent",
+      "label": "Event Content",
+      "type": "textarea",
+      "section": "Sms Type",
+      "tab": "Loan",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "CbRCPT",
+      "label": "Event Name",
+      "type": "select",
+      "section": "Sms Type",
+      "tab": "Receipt",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "txtRCPT",
+      "label": "Event Content",
+      "type": "textarea",
+      "section": "Sms Type",
+      "tab": "Receipt",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "cmbwithdrawl",
+      "label": "Event Name",
+      "type": "select",
+      "section": "Sms Type",
+      "tab": "Payment",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "txtwithdrawl",
+      "label": "Event Content",
+      "type": "textarea",
+      "section": "Sms Type",
+      "tab": "Payment",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "cmbbal",
+      "label": "Event Name",
+      "type": "select",
+      "section": "Sms Type",
+      "tab": "Balance",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "txtbal",
+      "label": "Event Content",
+      "type": "textarea",
+      "section": "Sms Type",
+      "tab": "Balance",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "RSID",
+      "label": "SenderID",
+      "type": "text",
+      "section": "Sms Type",
+      "tab": "Registration",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "FSID",
+      "label": "SenderID",
+      "type": "text",
+      "section": "Sms Type",
+      "tab": "FD",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "RDSID",
+      "label": "SenderID",
+      "type": "text",
+      "section": "Sms Type",
+      "tab": "RD",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "MSID",
+      "label": "SenderID",
+      "type": "text",
+      "section": "Sms Type",
+      "tab": "MIS",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "DSID",
+      "label": "SenderID",
+      "type": "text",
+      "section": "Sms Type",
+      "tab": "Deposit",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "CHSID",
+      "label": "SenderID",
+      "type": "text",
+      "section": "Sms Type",
+      "tab": "Cheque",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "LSID",
+      "label": "SenderID",
+      "type": "text",
+      "section": "Sms Type",
+      "tab": "Loan",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "RESID",
+      "label": "SenderID",
+      "type": "text",
+      "section": "Sms Type",
+      "tab": "Receipt",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "PSID",
+      "label": "SenderID",
+      "type": "text",
+      "section": "Sms Type",
+      "tab": "Payment",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "BSID",
+      "label": "SenderID",
+      "type": "text",
+      "section": "Sms Type",
+      "tab": "Balance",
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Detail",
+      "label": "Send Detail",
+      "type": "select",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "Status",
+      "label": "Status",
+      "type": "select",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "btnreg",
+      "label": "Save",
+      "handler": "btnreg_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel2",
+      "label": "2. For Member Name - #NAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel1",
+      "label": "1. For A/c No- #ACNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel4",
+      "label": "5. FD Registration No - #FDREGNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel5",
+      "label": "4. Maturity Date - #MATDATE#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel6",
+      "label": "3. FD Amount #FDAMT#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "button1",
+      "label": "Save",
+      "handler": "button1_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel7",
+      "label": "2. For Member Name - #NAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel8",
+      "label": "1. For A/c No- #ACNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel3",
+      "label": "5. FD Registration No - #FDREGNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "lblfdmaturitydate",
+      "label": "4. Maturity Date - #MATDATE#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "lblfdamt",
+      "label": "3. FD Amount #FDAMT#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "btnregFD",
+      "label": "Save",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "lblmemnamefd",
+      "label": "2. For Member Name - #NAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "lblacnofd",
+      "label": "1. For A/c No- #ACNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel9",
+      "label": "5. RD Registration No - #RDREGNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel10",
+      "label": "4. Maturity Date - #MATDATE#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel16",
+      "label": "3. RD Amount #RDAMT#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "button2",
+      "label": "Save",
+      "handler": "btnrd_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel17",
+      "label": "2. For Member Name - #NAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel18",
+      "label": "1. For A/c No- #ACNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel11",
+      "label": "5. RD Registration No - #RDREGNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel12",
+      "label": "4. Maturity Date - #MATDATE#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel13",
+      "label": "3. RD Amount #RDAMT#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "btnrd",
+      "label": "Save",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel14",
+      "label": "2. For Member Name - #NAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel15",
+      "label": "1. For A/c No- #ACNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel27",
+      "label": "8. Monthly Int Post to - #POSTHEAD#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel22",
+      "label": "7. MIS Payment- #MISPYMT#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel21",
+      "label": "6. MIS Rate- #INTRT#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel20",
+      "label": "5. MIS REG No- #MISREGNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel19",
+      "label": "4. MIS Date- #MISVALD#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel23",
+      "label": "3. Deposit Amt - #MISAMT#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "btnmis",
+      "label": "Save",
+      "handler": "btnmis_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel24",
+      "label": "2. For Member Name - #NAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel25",
+      "label": "1. For A/c No- #ACNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel26",
+      "label": "4. For Member Name - #AMT#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel28",
+      "label": "3. Deposit For - #Dtype#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "btndepsave",
+      "label": "Save",
+      "handler": "btndepsave_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel29",
+      "label": "2. For Member Name - #NAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel30",
+      "label": "1. For A/c No- #ACNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel33",
+      "label": "6. Cheq Amount : #CHAMT#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel32",
+      "label": "5. Cheq Bank Date : #CHDATE#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel31",
+      "label": "4. Cheq Bank Name : #CHNAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel34",
+      "label": "3. Deposit For - #DEPNAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "btnchq",
+      "label": "Save",
+      "handler": "btnchq_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel35",
+      "label": "2. For Member Name - #NAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel36",
+      "label": "1. For A/c No- #ACNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel37",
+      "label": "7. LOAN TYPE #LOANTYPE#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel38",
+      "label": "6. LOAN A/C NO #LOANNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel39",
+      "label": "5. DUE DATE #DUEDATE#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel40",
+      "label": "4. EMI AMOUNT #EMIAMT#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel41",
+      "label": "3. Loan Amount #LOANAMT#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "btnloan",
+      "label": "Save",
+      "handler": "btnloan_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel42",
+      "label": "2. For Member Name - #NAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel43",
+      "label": "1. For A/c No- #ACNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel45",
+      "label": "3. Deposit For - #DEPNAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "BtnRCPT",
+      "label": "Save",
+      "handler": "BtnRCPT_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel46",
+      "label": "2. For Member Name - #NAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel47",
+      "label": "1. For A/c No- #ACNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel44",
+      "label": "4. For Amount - #DEPAMT#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel48",
+      "label": "4. For Amount - #DEPAMT#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel49",
+      "label": "3. Deposit For - #DEPNAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "btnwithdrawl",
+      "label": "Save",
+      "handler": "btnwithdrawl_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel50",
+      "label": "2. For Member Name - #NAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel51",
+      "label": "1. For A/c No- #ACNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel52",
+      "label": "6. CD - #CDBAL#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel53",
+      "label": "5. Share - #SHAREBAL#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel54",
+      "label": "4. R.d. - #RDBAL#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel55",
+      "label": "3. O.D. - #ODBAL#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "btnbalsave",
+      "label": "Save",
+      "handler": "btnbalsave_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel56",
+      "label": "2. For Member Name - #NAME#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel57",
+      "label": "1. For A/c No- #ACNO#",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [],
+  "sections": [
+    {
+      "field": "groupBox3",
+      "label": "Status of SMS"
+    },
+    {
+      "field": "groupBox1",
+      "label": "Sms Type"
+    },
+    {
+      "field": "groupBox2",
+      "label": "Sms Type"
+    },
+    {
+      "field": "groupBox6",
+      "label": "Sms Type"
+    },
+    {
+      "field": "groupBox7",
+      "label": "Sms Type"
+    },
+    {
+      "field": "groupBox5",
+      "label": "Sms Type"
+    },
+    {
+      "field": "groupBox9",
+      "label": "Sms Type"
+    },
+    {
+      "field": "groupBox4",
+      "label": "Sms Type"
+    },
+    {
+      "field": "groupBox8",
+      "label": "Sms Type"
+    },
+    {
+      "field": "groupBox10",
+      "label": "Sms Type"
+    },
+    {
+      "field": "groupBox11",
+      "label": "Sms Type"
+    }
+  ],
+  "tabs": [
+    {
+      "field": "Membership",
+      "label": "Registration"
+    },
+    {
+      "field": "FD",
+      "label": "FD"
+    },
+    {
+      "field": "Loan",
+      "label": "Loan"
+    },
+    {
+      "field": "RD",
+      "label": "RD"
+    },
+    {
+      "field": "MIS",
+      "label": "MIS"
+    },
+    {
+      "field": "Cheque",
+      "label": "Cheque"
+    },
+    {
+      "field": "Deposit",
+      "label": "Deposit"
+    },
+    {
+      "field": "Payment",
+      "label": "Payment"
+    },
+    {
+      "field": "Balance",
+      "label": "Balance"
+    },
+    {
+      "field": "Receipt",
+      "label": "Receipt"
+    }
+  ],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 1,
+  "screenConfidence": "source-backed"
+}

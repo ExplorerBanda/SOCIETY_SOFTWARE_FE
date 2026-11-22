@@ -1,0 +1,149 @@
+{
+  "id": "gst",
+  "name": "GST",
+  "title": "GST Register",
+  "category": "Reports and print workflows",
+  "source": "recovered/decompiled/Reporter/QuickTC.Reports/GST.cs",
+  "line": 13,
+  "fields": [
+    {
+      "name": "GLcode",
+      "label": "GLcode",
+      "type": "select",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "Refno",
+      "label": "Refno",
+      "type": "select",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "Fdate",
+      "label": "FromDate :",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Udate",
+      "label": "Uptodate :",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Pdate",
+      "label": "Pdate",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Hdate",
+      "label": "Hdate",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "NHdate",
+      "label": "NHdate",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Vdate",
+      "label": "Vdate",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Close",
+      "label": "Close",
+      "handler": "Close_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Print",
+      "label": "Print",
+      "handler": "Print_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Exit",
+      "label": "Exit",
+      "handler": "Exit_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 1,
+  "screenConfidence": "source-backed"
+}

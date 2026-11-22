@@ -1,0 +1,122 @@
+{
+  "id": "branchname",
+  "name": "BranchName",
+  "title": "Bank Branches",
+  "category": "Accounting and configuration",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/BranchName.cs",
+  "line": 11,
+  "fields": [
+    {
+      "name": "BrName",
+      "label": "Branch Name",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "BranchCode",
+      "label": "Branch Code",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "BankCode",
+      "label": "Bank Name",
+      "type": "select",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "CityCode",
+      "label": "City",
+      "type": "select",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "New",
+      "label": "Add",
+      "handler": "New_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Cancel",
+      "label": "Cancel",
+      "handler": "Cancel_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Exit",
+      "label": "Exit",
+      "handler": "Exit_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Delete",
+      "label": "Delete",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "addBankToolStripMenuItem",
+      "label": "Add Bank",
+      "handler": "addBankToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "bankname"
+      ],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "dg",
+      "columns": []
+    }
+  ],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 2,
+  "screenConfidence": "source-backed"
+}

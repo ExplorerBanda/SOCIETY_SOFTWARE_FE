@@ -1,0 +1,137 @@
+{
+  "id": "glyear",
+  "name": "GlYear",
+  "title": "",
+  "category": "Accounting and configuration",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/GlYear.cs",
+  "line": 11,
+  "fields": [
+    {
+      "name": "EndDate",
+      "label": "End Date",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "StartDate",
+      "label": "Start Date",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "YearString",
+      "label": "YearString",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "YearName",
+      "label": "Year Name",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "YearID",
+      "label": "Year ID",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Status",
+      "label": "Status",
+      "type": "select",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Save",
+      "label": "Save",
+      "handler": "Save_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Cancel",
+      "label": "Cancel",
+      "handler": "Cancel_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Delete",
+      "label": "Delete",
+      "handler": "Delete_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Exit",
+      "label": "button4",
+      "handler": "Exit_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "dg",
+      "columns": []
+    }
+  ],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 3,
+  "screenConfidence": "source-backed"
+}

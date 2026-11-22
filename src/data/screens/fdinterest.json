@@ -1,0 +1,310 @@
+{
+  "id": "fdinterest",
+  "name": "FDInterest",
+  "title": "",
+  "category": "Deposits, shares and savings",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/FDInterest.cs",
+  "line": 11,
+  "fields": [
+    {
+      "name": "MGlcode",
+      "label": "Ledger Account",
+      "type": "select",
+      "section": "Term Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "FMrefno",
+      "label": "Interest From",
+      "type": "text",
+      "section": "Term Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "UMrefno",
+      "label": "FDR No. Upto",
+      "type": "text",
+      "section": "Term Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "OGlcode",
+      "label": "Ledger Account",
+      "type": "select",
+      "section": "Ordinary Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "OFMemno",
+      "label": "From Memno",
+      "type": "text",
+      "section": "Ordinary Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 6,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "OUMemno",
+      "label": "To",
+      "type": "text",
+      "section": "Ordinary Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 6,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "FMdate",
+      "label": "From - Upto date",
+      "type": "text",
+      "section": "Term Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "UMdate",
+      "label": "SL",
+      "type": "text",
+      "section": "Term Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "OFDate",
+      "label": "Interest From",
+      "type": "text",
+      "section": "Ordinary Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 10,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "OUdate",
+      "label": "To",
+      "type": "text",
+      "section": "Ordinary Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 10,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Sttp",
+      "label": "From Memno",
+      "type": "select",
+      "section": "Term Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "Stcr",
+      "label": "To",
+      "type": "select",
+      "section": "Term Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": false,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "ORate",
+      "label": "Posting Date",
+      "type": "text",
+      "section": "Ordinary Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 5,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "SusACC",
+      "label": "Suspence A/c",
+      "type": "text",
+      "section": "Ordinary Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 4,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Pdate",
+      "label": "Posting Date",
+      "type": "text",
+      "section": "Ordinary Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 10,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Tslcode",
+      "label": "Intt Transfer to",
+      "type": "text",
+      "section": "Ordinary Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 1,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Tglcode",
+      "label": "Intt Transfer to",
+      "type": "text",
+      "section": "Ordinary Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 4,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "PostingDat",
+      "label": "Posting Date",
+      "type": "text",
+      "section": "Term Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "SelectTyp",
+      "label": "All/Net Member",
+      "type": "select",
+      "section": "Ordinary Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "CalinttFDM",
+      "label": "Calculate Interest",
+      "handler": "CalinttFDM_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "OCalIntt",
+      "label": "Calculate Interest",
+      "handler": "OCalIntt_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "WF",
+      "label": "WF",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "dg",
+      "columns": []
+    },
+    {
+      "name": "DGO",
+      "columns": []
+    }
+  ],
+  "sections": [
+    {
+      "field": "GBT",
+      "label": "Term Deposit Interest"
+    },
+    {
+      "field": "GBO",
+      "label": "Ordinary Deposit Interest"
+    }
+  ],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 7,
+  "screenConfidence": "source-backed"
+}

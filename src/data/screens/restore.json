@@ -1,0 +1,128 @@
+{
+  "id": "restore",
+  "name": "Restore",
+  "title": "Restore Database",
+  "category": "Administration and utilities",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/Restore.cs",
+  "line": 9,
+  "fields": [
+    {
+      "name": "textBox2",
+      "label": "SQl Server :",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "textBox1",
+      "label": "Login",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": false,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "textBox3",
+      "label": "Password",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": false,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "radioButton1",
+      "label": "radio Button1",
+      "type": "radio",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "RadioButton"
+    },
+    {
+      "name": "radioButton2",
+      "label": "radio Button2",
+      "type": "radio",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "RadioButton"
+    }
+  ],
+  "actions": [
+    {
+      "name": "button1",
+      "label": "Cancel",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "button2",
+      "label": "Finish",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "button3",
+      "label": "Next >>",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "button4",
+      "label": "<< Back",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Exit",
+      "label": "Exit",
+      "handler": "Exit_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": false,
+  "dialogCallCount": 0,
+  "screenConfidence": "source-backed"
+}

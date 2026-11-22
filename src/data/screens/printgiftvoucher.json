@@ -1,0 +1,114 @@
+{
+  "id": "printgiftvoucher",
+  "name": "PrintGiftVoucher",
+  "title": "",
+  "category": "Reports and print workflows",
+  "source": "recovered/decompiled/Reporter/QuickTC.Reports/PrintGiftVoucher.cs",
+  "line": 14,
+  "fields": [
+    {
+      "name": "Umemno",
+      "label": "Upto Membership no. :",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Fmemno",
+      "label": "From Membership no. :",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Description",
+      "label": "Voucher Description",
+      "type": "textarea",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Title",
+      "label": "Voucher Title :",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Memdate",
+      "label": "As on Date :",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Exit",
+      "label": "button1",
+      "handler": "Exit_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Close",
+      "label": "Close",
+      "handler": "Close_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Print",
+      "label": "Print",
+      "handler": "Print_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepGiftVoucher"
+      ]
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 0,
+  "screenConfidence": "source-backed"
+}

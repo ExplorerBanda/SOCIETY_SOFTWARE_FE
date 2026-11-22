@@ -1,0 +1,89 @@
+{
+  "id": "fdinterestduedate",
+  "name": "FDInterestDuedate",
+  "title": "FDInterestDuedate",
+  "category": "Deposits, shares and savings",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/FDInterestDuedate.cs",
+  "line": 11,
+  "fields": [
+    {
+      "name": "UMdate",
+      "label": "Tran date",
+      "type": "text",
+      "section": "Term Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "MGlcode",
+      "label": "Ledger Account",
+      "type": "select",
+      "section": "Term Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "FMrefno",
+      "label": "FDR No. From",
+      "type": "text",
+      "section": "Term Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "UMrefno",
+      "label": "FDR No. Upto",
+      "type": "text",
+      "section": "Term Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "CalinttFDM",
+      "label": "Calculate Interest",
+      "handler": "CalinttFDM_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "dg",
+      "columns": []
+    }
+  ],
+  "sections": [
+    {
+      "field": "GBT",
+      "label": "Term Deposit Interest"
+    }
+  ],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 3,
+  "screenConfidence": "source-backed"
+}

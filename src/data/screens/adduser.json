@@ -1,0 +1,220 @@
+{
+  "id": "adduser",
+  "name": "Adduser",
+  "title": "User Configuration",
+  "category": "Administration and utilities",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/Adduser.cs",
+  "line": 12,
+  "fields": [
+    {
+      "name": "UserName",
+      "label": "User Name",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Password",
+      "label": "Password",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Email",
+      "label": "Email ID",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "phoneno",
+      "label": "Phone No",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "UserID",
+      "label": "User ID",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Role",
+      "label": "User Role U/A",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Freeze",
+      "label": "Phone No",
+      "type": "select",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "txtPhoneno",
+      "label": "Phone No",
+      "type": "text",
+      "section": "Search",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "txtUserName",
+      "label": "Name",
+      "type": "text",
+      "section": "Search",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "txtUserID",
+      "label": "User ID",
+      "type": "text",
+      "section": "Search",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Branch",
+      "label": "Branch Code",
+      "type": "select",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "cancel",
+      "label": "Cancel",
+      "handler": "Cancel_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "delete",
+      "label": "Delete",
+      "handler": "delete_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "save",
+      "label": "Save",
+      "handler": "save_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "button4",
+      "label": "Search",
+      "handler": "button4_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Exit",
+      "label": "Exit",
+      "handler": "Exit_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "DG",
+      "columns": []
+    }
+  ],
+  "sections": [
+    {
+      "field": "GB",
+      "label": "Add / Edit"
+    },
+    {
+      "field": "GB1",
+      "label": "Search"
+    }
+  ],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 4,
+  "screenConfidence": "source-backed"
+}

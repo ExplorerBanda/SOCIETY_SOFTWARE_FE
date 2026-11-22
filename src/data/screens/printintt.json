@@ -1,0 +1,93 @@
+{
+  "id": "printintt",
+  "name": "PrintIntt",
+  "title": "",
+  "category": "Reports and print workflows",
+  "source": "recovered/decompiled/Reporter/QuickTC.Reports/PrintIntt.cs",
+  "line": 14,
+  "fields": [
+    {
+      "name": "Memno",
+      "label": "From Memno",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Umemno",
+      "label": "Upto Memno",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Udate",
+      "label": "Upto Date",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Print",
+      "label": "Print",
+      "handler": "Print_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepMemberBalance_Audit_B",
+        "RepMemberBalanceITR",
+        "RepMemberBalance_AuditIntt_A",
+        "RepMemberBalance_DepLoan",
+        "REPMemberDepLoanIntt",
+        "RepMemberBalance_AuditGrouped"
+      ]
+    },
+    {
+      "name": "Cancel",
+      "label": "Cancel",
+      "handler": "Cancel_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Exit",
+      "label": "button3",
+      "handler": "Exit_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 0,
+  "screenConfidence": "source-backed"
+}

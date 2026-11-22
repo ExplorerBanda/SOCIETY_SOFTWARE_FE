@@ -1,0 +1,83 @@
+{
+  "id": "chequeprinting",
+  "name": "ChequePrinting",
+  "title": "Cheque Printing",
+  "category": "Transactions and vouchers",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/ChequePrinting.cs",
+  "line": 12,
+  "fields": [
+    {
+      "name": "vno",
+      "label": "Voucher No.",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": true,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Cheqdate",
+      "label": "Cheque Date",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": true,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "MName",
+      "label": "Payee Name",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Amt",
+      "label": "Amount",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": true,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Print",
+      "label": "Print Cheque",
+      "handler": "Print_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepCheqPrint"
+      ]
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": false,
+  "dialogCallCount": 0,
+  "screenConfidence": "source-backed"
+}

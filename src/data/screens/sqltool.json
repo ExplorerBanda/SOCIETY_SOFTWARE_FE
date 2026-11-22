@@ -1,0 +1,16 @@
+{
+  "id": "sqltool",
+  "name": "SQLTool",
+  "title": "SQL Tool",
+  "category": "Administration and utilities",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/SQLTool.cs",
+  "line": 11,
+  "fields": [],
+  "actions": [],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 3,
+  "screenConfidence": "needs visual/source review"
+}

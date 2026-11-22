@@ -1,0 +1,186 @@
+{
+  "id": "databaseviewer",
+  "name": "DatabaseViewer",
+  "title": "DatabaseViewer",
+  "category": "Administration and utilities",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/DatabaseViewer.cs",
+  "line": 15,
+  "fields": [],
+  "actions": [
+    {
+      "name": "table",
+      "label": "List of table",
+      "handler": "table_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepTables"
+      ]
+    },
+    {
+      "name": "Coloums",
+      "label": "List of Columns",
+      "handler": "Coloums_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepColums"
+      ]
+    },
+    {
+      "name": "Proc",
+      "label": "List of Procedures",
+      "handler": "Proc_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepProcedure"
+      ]
+    },
+    {
+      "name": "Function",
+      "label": "List of Functions",
+      "handler": "Function_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepFunction"
+      ]
+    },
+    {
+      "name": "parameter",
+      "label": "List of parameters",
+      "handler": "parameter_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepParameters"
+      ]
+    },
+    {
+      "name": "LoanConfig",
+      "label": "Loan Configuration",
+      "handler": "LoanConfig_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepLoanConfig"
+      ]
+    },
+    {
+      "name": "ConfigMaster",
+      "label": "Configuration and Masters",
+      "handler": "ConfigMaster_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepConfigMasters"
+      ]
+    },
+    {
+      "name": "DepositConfig",
+      "label": "Deposit Configuration",
+      "handler": "DepositConfig_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepDepositConfig"
+      ]
+    },
+    {
+      "name": "button1",
+      "label": "Look Up Table",
+      "handler": "button1_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepTCConfig"
+      ]
+    },
+    {
+      "name": "DepList",
+      "label": "List of Deposit Scheme",
+      "handler": "DepList_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepDeposteScheme"
+      ]
+    },
+    {
+      "name": "button2",
+      "label": "List of Procedue with Parameters",
+      "handler": "button2_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "DBREP_Procedure"
+      ]
+    },
+    {
+      "name": "TableList",
+      "label": "List Of Table with Type",
+      "handler": "TableList_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "DBREP_Tables"
+      ]
+    },
+    {
+      "name": "button5",
+      "label": "List of Table with Columns",
+      "handler": "button5_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "DBREP_Coloum"
+      ]
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 0,
+  "screenConfidence": "source-backed"
+}

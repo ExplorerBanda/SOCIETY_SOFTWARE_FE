@@ -1,0 +1,164 @@
+{
+  "id": "shgrid",
+  "name": "SHGrid",
+  "title": "",
+  "category": "Deposits, shares and savings",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/SHGrid.cs",
+  "line": 11,
+  "fields": [
+    {
+      "name": "Memno",
+      "label": "Membership No.",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Shareno",
+      "label": "Share",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Certno",
+      "label": "Certificate No.",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "CB1",
+      "label": "Share Status",
+      "type": "select",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Allotment",
+      "label": "Allotment",
+      "handler": "Allotment_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Transfer",
+      "label": "Transfer",
+      "handler": "Transfer_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "shform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Cancel",
+      "label": "Cancel",
+      "handler": "Cancel_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "shform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Wating",
+      "label": "Waiting",
+      "handler": "Wating_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "shform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Search",
+      "label": "Search",
+      "handler": "Search_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Curr20",
+      "label": "Status wise Shares",
+      "handler": "Curr20_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Print",
+      "label": "Print",
+      "handler": "Print_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "shform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Delete",
+      "label": "Delete",
+      "handler": "Delete_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Exit",
+      "label": "Exit",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "dg",
+      "columns": []
+    }
+  ],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 0,
+  "screenConfidence": "source-backed"
+}

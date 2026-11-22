@@ -1,0 +1,276 @@
+{
+  "id": "rlinterest",
+  "name": "RLInterest",
+  "title": "Loan Interest Calculation",
+  "category": "Loans and credit processing",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/RLInterest.cs",
+  "line": 12,
+  "fields": [
+    {
+      "name": "Glcode",
+      "label": "Ledger Account",
+      "type": "select",
+      "section": "Loan Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "Frefno",
+      "label": "Bond No. From",
+      "type": "text",
+      "section": "Loan Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Urefno",
+      "label": "Bond No. Upto",
+      "type": "text",
+      "section": "Loan Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Asondate",
+      "label": "Tran Date",
+      "type": "text",
+      "section": "Loan Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Oglcode",
+      "label": "Ledger Account",
+      "type": "select",
+      "section": "OverDue Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "OFrefno",
+      "label": "Bond No. From",
+      "type": "text",
+      "section": "OverDue Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "OUrefno",
+      "label": "Bond No. Upto",
+      "type": "text",
+      "section": "OverDue Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Oasondate",
+      "label": "Tran Date",
+      "type": "text",
+      "section": "OverDue Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Sasondate",
+      "label": "Tran Date",
+      "type": "text",
+      "section": "Loan Interest Other",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Slcode",
+      "label": "Ledger Account",
+      "type": "select",
+      "section": "Loan Interest Other",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "FSRefno",
+      "label": "Bond No. From",
+      "type": "text",
+      "section": "Loan Interest Other",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "USRefno",
+      "label": "Bond No. Upto",
+      "type": "text",
+      "section": "Loan Interest Other",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Postingdate",
+      "label": "Posting Date",
+      "type": "text",
+      "section": "Loan Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "PenalPdate",
+      "label": "Posting Date",
+      "type": "text",
+      "section": "OverDue Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "OthPdate",
+      "label": "Posting Date",
+      "type": "text",
+      "section": "Loan Interest Other",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "CalIntt",
+      "label": "Calculate Interest",
+      "handler": "CalIntt_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Exit",
+      "label": "Exit",
+      "handler": "Exit_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "CalPinttt",
+      "label": "Calculate Penel Interest",
+      "handler": "CalPinttt_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "CalSLIntt",
+      "label": "Calculate Interest",
+      "handler": "CalSLIntt_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "button1",
+      "label": "Calculate Penel Interest",
+      "handler": "button1_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "dg",
+      "columns": []
+    }
+  ],
+  "sections": [
+    {
+      "field": "GBI",
+      "label": "Loan Interest"
+    },
+    {
+      "field": "GBP",
+      "label": "OverDue Interest"
+    },
+    {
+      "field": "GBS",
+      "label": "Loan Interest Other"
+    }
+  ],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 17,
+  "screenConfidence": "source-backed"
+}

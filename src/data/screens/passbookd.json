@@ -1,0 +1,122 @@
+{
+  "id": "passbookd",
+  "name": "PassBookD",
+  "title": "Member's Deposit",
+  "category": "Deposits, shares and savings",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/PassBookD.cs",
+  "line": 16,
+  "fields": [
+    {
+      "name": "LastDateD",
+      "label": "Upto Date",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "LastLineD",
+      "label": "Lines Printed",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Fdate",
+      "label": "From Date",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Memno",
+      "label": "Membership No.",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "LastDate",
+      "label": "Last Date",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": false,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "LastLine",
+      "label": "Last Line",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": false,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "button2",
+      "label": "Member's Address>>",
+      "handler": "button2_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepPassAddress"
+      ]
+    },
+    {
+      "name": "button1",
+      "label": "Print PassBook>>",
+      "handler": "button1_Click_1",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepPassbookD"
+      ]
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 2,
+  "screenConfidence": "source-backed"
+}

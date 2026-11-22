@@ -1,0 +1,30 @@
+{
+  "id": "encryptor",
+  "name": "Encryptor",
+  "title": "",
+  "category": "Administration and utilities",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/Encryptor.cs",
+  "line": 9,
+  "fields": [
+    {
+      "name": "O",
+      "label": "O",
+      "type": "textarea",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": false,
+  "dialogCallCount": 0,
+  "screenConfidence": "source-backed"
+}

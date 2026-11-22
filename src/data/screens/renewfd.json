@@ -1,0 +1,92 @@
+{
+  "id": "renewfd",
+  "name": "RenewFD",
+  "title": "RenewFD",
+  "category": "Deposits, shares and savings",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/RenewFD.cs",
+  "line": 11,
+  "fields": [
+    {
+      "name": "Vdate",
+      "label": "FD/RD Date",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Rate",
+      "label": "Rate",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Month",
+      "label": "Months",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "P",
+      "label": "P",
+      "type": "radio",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "RadioButton"
+    },
+    {
+      "name": "PI",
+      "label": "PI",
+      "type": "radio",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "RadioButton"
+    }
+  ],
+  "actions": [
+    {
+      "name": "button1",
+      "label": "Re-New FDR",
+      "handler": "button1_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 6,
+  "screenConfidence": "source-backed"
+}

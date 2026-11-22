@@ -1,0 +1,207 @@
+{
+  "id": "commission",
+  "name": "Commission",
+  "title": "Commission",
+  "category": "Transactions and vouchers",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/Commission.cs",
+  "line": 12,
+  "fields": [
+    {
+      "name": "Vdate",
+      "label": "Vdate",
+      "type": "textarea",
+      "section": "Commision ",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Memno",
+      "label": "Memno",
+      "type": "textarea",
+      "section": "Commision ",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Intro",
+      "label": "Introducer",
+      "type": "textarea",
+      "section": "Commision ",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Paid",
+      "label": "Paid",
+      "type": "textarea",
+      "section": "Commision ",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Rate",
+      "label": "Rate %",
+      "type": "textarea",
+      "section": "Commision ",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Amount",
+      "label": "Commission",
+      "type": "textarea",
+      "section": "Commision ",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Refno",
+      "label": "Refno",
+      "type": "textarea",
+      "section": "Commision ",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Tot",
+      "label": "Total Commission",
+      "type": "textarea",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Glcode",
+      "label": "Glcode",
+      "type": "select",
+      "section": "Commision ",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "ST",
+      "label": "Commission",
+      "type": "textarea",
+      "section": "Commision ",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "_Amount",
+      "label": "Amount",
+      "type": "textarea",
+      "section": "Commision ",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Add",
+      "label": "Add Commission",
+      "handler": "Add_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "button1",
+      "label": "Cancel",
+      "handler": "button1_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Delete",
+      "label": "Delete",
+      "handler": "Delete_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Voucher",
+      "label": "Make Voucher",
+      "handler": "Voucher_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "DG",
+      "columns": []
+    }
+  ],
+  "sections": [
+    {
+      "field": "GB",
+      "label": "Commision"
+    }
+  ],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 9,
+  "screenConfidence": "source-backed"
+}

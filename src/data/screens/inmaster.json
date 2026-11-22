@@ -1,0 +1,298 @@
+{
+  "id": "inmaster",
+  "name": "INMaster",
+  "title": "INMaster",
+  "category": "Arbitration and correspondence",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/INMaster.cs",
+  "line": 12,
+  "fields": [
+    {
+      "name": "Mname",
+      "label": "Name",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Memno",
+      "label": "Memno",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Inwardno",
+      "label": "Inward  No.",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "InwardID",
+      "label": "Inward ID",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": false,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "YearID",
+      "label": "Year ID",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": false,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Desc3",
+      "label": "Desc3",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Note3",
+      "label": "Subject",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Desc2",
+      "label": "Desc2",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Desc1",
+      "label": "Description",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Title",
+      "label": "Subject",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Note2",
+      "label": "Name",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Note1",
+      "label": "Action Taken",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Idate",
+      "label": "Receipt Date",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Xmname",
+      "label": "Name",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "XIDate",
+      "label": "Date",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Xmemno",
+      "label": "Memno",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Branch",
+      "label": "Branch",
+      "type": "text",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": false,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "St",
+      "label": "Status",
+      "type": "select",
+      "section": "Add / Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Delete",
+      "label": "Delete",
+      "handler": "Delete_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Cancel",
+      "label": "Cancel",
+      "handler": "Cancel_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Save",
+      "label": "Save",
+      "handler": "Save_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Search",
+      "label": "Search",
+      "handler": "Search_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "DG",
+      "columns": []
+    }
+  ],
+  "sections": [
+    {
+      "field": "GB",
+      "label": "Add / Edit"
+    }
+  ],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 5,
+  "screenConfidence": "source-backed"
+}

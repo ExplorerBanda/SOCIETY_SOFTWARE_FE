@@ -1,0 +1,45 @@
+{
+  "id": "emiform",
+  "name": "EMIForm",
+  "title": "EMIForm",
+  "category": "Shell, authentication and calculators",
+  "source": "recovered/decompiled/QuickForms/QuickForms/EMIForm.cs",
+  "line": 8,
+  "fields": [
+    {
+      "name": "Idate",
+      "label": "First Date",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "EMI",
+      "label": "Generate EMI",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "Instdg",
+      "columns": []
+    }
+  ],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": false,
+  "dialogCallCount": 0,
+  "screenConfidence": "source-backed"
+}

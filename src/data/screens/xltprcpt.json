@@ -1,0 +1,90 @@
+{
+  "id": "xltprcpt",
+  "name": "XLtpRcpt",
+  "title": "",
+  "category": "Other workflow",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/XLtpRcpt.cs",
+  "line": 14,
+  "fields": [
+    {
+      "name": "XLname",
+      "label": "Select File",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Select",
+      "label": "Select",
+      "handler": "Select_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Preview",
+      "label": "Preview Data",
+      "handler": "Preview_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Make",
+      "label": "Excel to Demand",
+      "handler": "Make_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "xltoRCPT",
+      "label": "Excel to TReceipt",
+      "handler": "xltoRCPT_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Trcpt",
+      "label": "TReceipt to Receipt",
+      "handler": "Trcpt_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Tpaymnt",
+      "label": "TReceipt to Payment",
+      "handler": "Tpaymnt_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "DG",
+      "columns": []
+    }
+  ],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 6,
+  "screenConfidence": "source-backed"
+}

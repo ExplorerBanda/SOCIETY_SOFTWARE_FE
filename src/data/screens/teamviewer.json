@@ -1,0 +1,26 @@
+{
+  "id": "teamviewer",
+  "name": "TeamViewer",
+  "title": "TeamViewer",
+  "category": "Administration and utilities",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/TeamViewer.cs",
+  "line": 10,
+  "fields": [],
+  "actions": [
+    {
+      "name": "linkLabel1",
+      "label": "Download TeamViewer 12",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": false,
+  "dialogCallCount": 0,
+  "screenConfidence": "source-backed"
+}

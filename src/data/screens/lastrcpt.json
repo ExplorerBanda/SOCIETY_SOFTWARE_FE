@@ -1,0 +1,31 @@
+{
+  "id": "lastrcpt",
+  "name": "LastRcpt",
+  "title": "Current Month Receipt",
+  "category": "Reports and member views",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/LastRcpt.cs",
+  "line": 9,
+  "fields": [],
+  "actions": [
+    {
+      "name": "Exit",
+      "label": "Exir",
+      "handler": "Exit_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "DG",
+      "columns": []
+    }
+  ],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 0,
+  "screenConfidence": "source-backed"
+}

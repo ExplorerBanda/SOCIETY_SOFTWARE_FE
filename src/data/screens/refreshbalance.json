@@ -1,0 +1,40 @@
+{
+  "id": "refreshbalance",
+  "name": "RefreshBalance",
+  "title": "RefreshBalance",
+  "category": "Other workflow",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/RefreshBalance.cs",
+  "line": 13,
+  "fields": [
+    {
+      "name": "Vdate",
+      "label": "Vdate",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "button1",
+      "label": "Referesh Balances",
+      "handler": "button1_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 3,
+  "screenConfidence": "source-backed"
+}

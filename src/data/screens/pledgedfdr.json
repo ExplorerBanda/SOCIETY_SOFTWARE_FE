@@ -1,0 +1,31 @@
+{
+  "id": "pledgedfdr",
+  "name": "PledgedFDR",
+  "title": "PledgedFDR",
+  "category": "Deposits, shares and savings",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/PledgedFDR.cs",
+  "line": 10,
+  "fields": [],
+  "actions": [
+    {
+      "name": "Exit",
+      "label": "Exit",
+      "handler": "Exit_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "dg",
+      "columns": []
+    }
+  ],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": false,
+  "dialogCallCount": 1,
+  "screenConfidence": "source-backed"
+}

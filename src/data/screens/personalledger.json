@@ -1,0 +1,31 @@
+{
+  "id": "personalledger",
+  "name": "PersonalLedger",
+  "title": "",
+  "category": "Reports and member views",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/PersonalLedger.cs",
+  "line": 12,
+  "fields": [],
+  "actions": [
+    {
+      "name": "Exit",
+      "label": "button1",
+      "handler": "Exit_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "DG",
+      "columns": []
+    }
+  ],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 0,
+  "screenConfidence": "source-backed"
+}

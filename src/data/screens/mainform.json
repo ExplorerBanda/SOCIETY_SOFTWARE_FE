@@ -1,0 +1,4534 @@
+{
+  "id": "mainform",
+  "name": "MainForm",
+  "title": "Runtime caption (company name; debug preview has a separate caption)",
+  "category": "Shell, authentication and calculators",
+  "source": "recovered/decompiled/EasyBook/QuickTC.Forms/MainForm.cs",
+  "line": 16,
+  "fields": [],
+  "actions": [
+    {
+      "name": "fileToolStripMenuItem",
+      "label": "Society",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "editToolStripMenuItem",
+      "label": "Deposit/Loan Registers",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "button1",
+      "label": "Membership Form",
+      "handler": "button1_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "mrgrid"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "button2",
+      "label": "A/C Balance",
+      "handler": "button2_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "mbalance"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "button7",
+      "label": "All Deposits",
+      "handler": "button7_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "fdgrid"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "button8",
+      "label": "All Loans",
+      "handler": "button8_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "rlgrid"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "button9",
+      "label": "Ledger Account",
+      "handler": "button9_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "glform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "button10",
+      "label": "Cash / Bank Book",
+      "handler": "button10_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Payment",
+      "label": "New Payment-",
+      "handler": "Payment_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "payment"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "button12",
+      "label": "New Receipt-",
+      "handler": "button12_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "autoreceipt",
+        "receipt"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Voucher",
+      "label": "New Voucher-",
+      "handler": "Voucher_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "vrgrid"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "button16",
+      "label": "Repayment Schedule",
+      "handler": "button16_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "repayment"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DDForm",
+      "label": "Dispatch Letter",
+      "handler": "DDForm_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "ddmaster"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "INmaster",
+      "label": "Received Letter",
+      "handler": "INmaster_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "inmaster"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "button20",
+      "label": "button20",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "button3",
+      "label": "Member's Shares",
+      "handler": "button3_Click_1",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "shform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "button6",
+      "label": "Ordinary Deposit",
+      "handler": "button6_Click_1",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "odform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "button21",
+      "label": "Sign-Off",
+      "handler": "button21_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "ScheduleAccounts",
+      "label": "Schedule Accounts",
+      "handler": "scheduleAccountsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "sdmaster"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LedgerAccounts",
+      "label": "Ledger Accounts",
+      "handler": "ledgerAccountsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "glform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "BankAccounts",
+      "label": "Bank Accounts",
+      "handler": "bankAccountsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "bkform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "BranchDetails",
+      "label": "Branch Details",
+      "handler": "branchDetailsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "brform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LocationDetails",
+      "label": "Location Details",
+      "handler": "locationDetailsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "loform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "AreaDetails",
+      "label": "Area Details",
+      "handler": "areaDetailsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "igform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Vouchers",
+      "label": "Vouchers",
+      "handler": "voucherTypeToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "vrconfig"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "InterestRate",
+      "label": "Interest Rate",
+      "handler": "interestRateToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "itmaster"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "AgentDetails",
+      "label": "Agent Details",
+      "handler": "agentDetailsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "agform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ApplicationForm",
+      "label": "Application",
+      "handler": "applicationToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "tcconfig"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LookUpTable",
+      "label": "Look Up Table",
+      "handler": "lookUpTableToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "masters"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Arbitration",
+      "label": "Arbitration",
+      "handler": "arbitrationToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "acconfig"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ODConfiguration",
+      "label": "OD Configuration",
+      "handler": "oDConfigToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "odconfig"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "FDConfiguration",
+      "label": "FD Configuration",
+      "handler": "fDConfigToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "fdconfig"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanConfiguration",
+      "label": "Loan Configuration",
+      "handler": "loanConfigToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "rlconfig"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "usersToolStripMenuItem",
+      "label": "Users",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "CreateUserAccount",
+      "label": "Create User Account",
+      "handler": "createUserAccountToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "adduser"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ChangePassword",
+      "label": "Change Password",
+      "handler": "changePasswordToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "changepassword"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CreateUserRights",
+      "label": "Create User Rights",
+      "handler": "createUserRightsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "addrights"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ChangeFinancialYear",
+      "label": "Change Financial Year",
+      "handler": "changeFinancialYearToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "login"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MembershipDetails",
+      "label": "Membership Details",
+      "handler": "membershipDetailsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "mrgrid"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanAndAdvances",
+      "label": "All Loans",
+      "handler": "loanAndAdvancesToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "rlgrid"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "OrdinaryDeposit",
+      "label": "Ordinary Deposites",
+      "handler": "ordinaryDepositToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "odform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "FixedDeposites",
+      "label": "Fixed Deposites",
+      "handler": "fixedDepositesToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "fdgrid"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyDeposites",
+      "label": "Daily Deposites",
+      "handler": "dailyDepositesToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "ShareAllotment",
+      "label": "Share Allotment",
+      "handler": "shareAllotmentToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "shgrid"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberMessage",
+      "label": "Member Message",
+      "handler": "memberMessageToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "mrmess"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "PassbookLoan",
+      "label": "Passbook Entry",
+      "handler": "passbookToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "passbook"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "PassBookDeposit",
+      "label": "PassBook Entry",
+      "handler": "passBoookDepositToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "passbookd"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "vouchersToolStripMenuItem",
+      "label": "Transaction",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "ReceiptEntryCash",
+      "label": "Receipt Entry (Cash / Upi /Cheque)",
+      "handler": "recieptEntryToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "autoreceipt",
+        "receipt"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "PaymentEntry",
+      "label": "Payment Entry",
+      "handler": "paymentEntryToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "payment"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "VoucherEntry",
+      "label": "Voucher Entry",
+      "handler": "voucherEntryToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "vrgrid"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "InterestOnLoan",
+      "label": "Interest on Loan",
+      "handler": "monthlyInterestOnLoanToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "rlinterest"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "InterestOnDeposit",
+      "label": "Interest on Deposits",
+      "handler": "interestOnFDRDMDToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "fdinterest"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "BankReconcilation",
+      "label": "Bank Reconcilation",
+      "handler": "bankRecouncelationToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "bankreco"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ArbitrationCases",
+      "label": "Arbitration Cases",
+      "handler": "arbitrationCasesToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "acmaster"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "displayToolStripMenuItem",
+      "label": "Display",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "trialBalanceToolStripMenuItem",
+      "label": "Trial Balance",
+      "handler": "trialBalanceToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "balanceSheetToolStripMenuItem",
+      "label": "Balance Sheet",
+      "handler": "balanceSheetToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "membersBalanceToolStripMenuItem",
+      "label": "Member's Balance",
+      "handler": "membersBalanceToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "mbalance"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "currentDemandToolStripMenuItem",
+      "label": "Current Demand",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "membersCurrentRecoveryToolStripMenuItem",
+      "label": "Member's Current Recovery",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "membersAllReferenceNoToolStripMenuItem",
+      "label": "Member's All Reference No.",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "membersCurrentSuritiesToolStripMenuItem",
+      "label": "Member's Current Surities",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "UtilitiesToolStripMenuItem",
+      "label": "Utilities",
+      "handler": "UtilitiesToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "ExpelResignMember",
+      "label": "Expel/Resign Member",
+      "handler": "expelResignMemberToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "mrresign"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CreateVoucherFromOpening",
+      "label": "Create Voucher From Opening",
+      "handler": "createVoucherFromOpeningToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "createvoucher"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ChangeLedgerAccount",
+      "label": "Change Ledger Account",
+      "handler": "changeLedgerAccountToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "changeglcode"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ConfigureFeatures",
+      "label": "Configuration Features",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "ReportToolStripMenuItem",
+      "label": "Reports",
+      "handler": "ReportToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "BooksOfAccounts",
+      "label": "Books Of Accounts",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "GeneralLedger",
+      "label": "General Ledger",
+      "handler": "generalLedgerToolStripMenuItem_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "PersonalLedger",
+      "label": "Personal Ledger",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "FinancialStatement",
+      "label": "Financial Statment",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberRegister",
+      "label": "Member Register",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "loanRegisterToolStripMenuItem",
+      "label": "Loan Register",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "DepositRegister",
+      "label": "Deposit Register",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyDepositRegister",
+      "label": "Daily Deposit Register",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "ShareAndSurities",
+      "label": "Share and Surety Register",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "ArbitrationandLetter",
+      "label": "Arbitration and Letters",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "VouchersList",
+      "label": "Vouchers List",
+      "handler": "vouchersListToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DayBook",
+      "label": "Day Book",
+      "handler": "dayBookToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LongBook",
+      "label": "Long Book",
+      "handler": "bankBookToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "VoucherWiseLedger",
+      "label": "Voucher Wise Ledger",
+      "handler": "voucherWiseLedgerToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DateWiseLedger",
+      "label": "Date Wise Ledger",
+      "handler": "dateWiseLedgerToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MonthWiseLedger",
+      "label": "Month Wise Ledger",
+      "handler": "monthWiseLedgerToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "EnrolledMember",
+      "label": "Enrolled Member",
+      "handler": "enrolledMemberToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ExpelledMember",
+      "label": "Resigned / Expelled Member",
+      "handler": "expelledMemberToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "NettMember",
+      "label": "Nett Member",
+      "handler": "nettMembeToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DCaseMember",
+      "label": "D'Case Member",
+      "handler": "dCaseMemberToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberIndexAddress",
+      "label": "Member Index-Address",
+      "handler": "memberIndexAddressToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberIndexSign",
+      "label": "Member Index-Sign",
+      "handler": "memberIndexSignToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberIndexPostal",
+      "label": "Member Index-Postal",
+      "handler": "memberIndexUPCToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberIndexContact",
+      "label": "Member Index-Contact",
+      "handler": "memberIndexContactToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberIndexNominee",
+      "label": "Member Index-Nominee",
+      "handler": "memberIndexNomineeToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberIndexBirthday",
+      "label": "Member Index-Birthday",
+      "handler": "memberIndexBirthdayToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MembersAudit",
+      "label": "Member's Audit",
+      "handler": "membersAuditToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "GroupofMembers",
+      "label": "Group of Members",
+      "handler": "memberIntroducesToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "PayInSlipToBank",
+      "label": "Pay In Slip to Bank",
+      "handler": "payInSlipToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "BankBookWithChequeNo",
+      "label": "Bank Book  with Cheque no",
+      "handler": "bankBookWithChequeNoToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "BankReconcilation_A",
+      "label": "Bank Reconcilation",
+      "handler": "bankReconcilationToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ConfigureDemand",
+      "label": "Configure Demand",
+      "handler": "configureDemandToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "dconfig"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "NewLoanRegister",
+      "label": "New Loan Register",
+      "handler": "newLoanRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ClearedLoanRegister",
+      "label": "Cleared Loan Register",
+      "handler": "clearedLoanRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ActiveLoanRegister",
+      "label": "Active Loan Register",
+      "handler": "activeLoanRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "NewLoanPurpose",
+      "label": "New Loan Purpose",
+      "handler": "neewLoanPurposeToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CurrentDemand",
+      "label": "Current Demand",
+      "handler": "currentDemandToolStripMenuItem1_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MonthlyDemand_All",
+      "label": "Monthly Demand",
+      "handler": "monthlyDemandToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MonthlyDemandGrouped",
+      "label": "Monthly Demand Long",
+      "handler": "monthlyDemandGroupedToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "OrdinaryDepositRegister_All",
+      "label": "Ordinary Deposit Register",
+      "handler": "sMCDODRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "NewFDRRegister",
+      "label": "New FDR Register",
+      "handler": "newFDRRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ClosedFDRRegister",
+      "label": "Closed FDR Register",
+      "handler": "closedFDRRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ActiveFDRRegister",
+      "label": "Active FDR Register",
+      "handler": "activeFDRRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MatureFDRRegister",
+      "label": "Mature FDR Register",
+      "handler": "matureFDRRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "FDMaturityLetter",
+      "label": "FD Maturity Letter",
+      "handler": "fDMaturityLetterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "PledzedFDRList",
+      "label": "Pledged FDR List",
+      "handler": "pledzedFDRListToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MaturedLoanRegister",
+      "label": "Matured  Loan Register",
+      "handler": "maturedLoanRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ConfigureHoliday",
+      "label": "Configure Holiday",
+      "handler": "configureHolidayToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "hoform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "RunDayEnd",
+      "label": "Run Day End",
+      "handler": "runDayEndToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "dayend"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ShareAllotmentRegister",
+      "label": "Share  Register",
+      "handler": "shareAllotmentRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CurrentAllotmentRegister",
+      "label": "Share Allotement Register",
+      "handler": "listOfCurrentCertificateToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ShareTransferRegister",
+      "label": "Share Transfer Register",
+      "handler": "listOFTransferedCertificateToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ShareCancelledRegister",
+      "label": "Share Cancelled Register",
+      "handler": "listOfCancelledCertificateToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ShareCertificateDetail",
+      "label": "Share Certificate Detail",
+      "handler": "shareCertificateDetailToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "SuretyGivenRegister",
+      "label": "Surety Given Register",
+      "handler": "suretyGivenRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "SuretyTakenRegister",
+      "label": "Surety Taken Register",
+      "handler": "suretyTakenRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "SuretyDefaulterRegister",
+      "label": "Surety Defaulter Register",
+      "handler": "suretyDefaulterRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "FinancialYear",
+      "label": "Financial Year",
+      "handler": "toolStripMenuItem2_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "glyear"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CurrentWaitingRegister",
+      "label": "Share Waiting Register",
+      "handler": "currentWaitingRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MembersShareDetail",
+      "label": "Member's Share Detail",
+      "handler": "membersShareDetailToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "OpeningTrail",
+      "label": "Opening Trial",
+      "handler": "openingTrailToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printfinal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ClosingTrail",
+      "label": "Closing Trial",
+      "handler": "closingTrailToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printfinal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CurrentTrail",
+      "label": "Current Trial",
+      "handler": "currentTrailToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printfinal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ConsolidatedTrail",
+      "label": "Consolidated Trial",
+      "handler": "consolidatedTrailToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printfinal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ReceiptAndDisbursement",
+      "label": "Receipt and Disbursement A/c",
+      "handler": "receiptAndDisbursementAcToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printfinal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ProfitAndLoss",
+      "label": "Profit and Loss A/c",
+      "handler": "profitAndLossAcToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printfinal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "BalanceSheet",
+      "label": "Balance Sheet",
+      "handler": "balanceSheetToolStripMenuItem1_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printfinal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MonthlyExpenseAndPaymentRegister",
+      "label": "Monthly Expense and Payment Register",
+      "handler": "mOnthlyExpenseAndPaymentRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printfinal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MonthlyIncomeAndReceiptRegister",
+      "label": "Monthly Income and Receipt Register",
+      "handler": "monthlyIncomeAndReceiptRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printfinal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CDDemandRegister",
+      "label": "CD Demand Register",
+      "handler": "cDDemandRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CDDemandLetter",
+      "label": "CD Demand Letter",
+      "handler": "cDDemandLetterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberIndexPhotoSignature",
+      "label": "Member Index Photo-Signature",
+      "handler": "Photosign_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberAddresslabel102",
+      "label": "Member Address Label 10 * 2",
+      "handler": "label102_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printlabel"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberAddressLabel82",
+      "label": "Member Address Label 8 * 2",
+      "handler": "memberAddressLabel82ToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printlabel"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "GiftVoucher",
+      "label": "Gift Voucher",
+      "handler": "giftVoucherToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printgiftvoucher"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ChartOfAccount",
+      "label": "Chart of Account",
+      "handler": "chartOfAccountToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Masters",
+      "label": "Masters",
+      "handler": "mastersToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ApplicationConfiguration",
+      "label": "Application Configuration",
+      "handler": "applicationConfigurationToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ListofAreaAgentBankBranch",
+      "label": "List of Area/Agent/Bank/Branch",
+      "handler": "groupOfMembersToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "RateOfInterest",
+      "label": "Rate of Interest",
+      "handler": "rateOfInterestToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberSupportingDocuments",
+      "label": "Member Supporting Documents",
+      "handler": "SupportingDoc_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Refnowiseledger",
+      "label": "Refno wise Ledger",
+      "handler": "Refwiseledger_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printrefwisebal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "PledgedDeposit",
+      "label": "Pledge Deposites",
+      "handler": "Pledged_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "pledgxfdr"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "OrdinaryDepositsLedger",
+      "label": "Ordinary Deposites",
+      "handler": "personalLedgerSingleToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpersonal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ReceiptEntryCheque",
+      "label": "Receipt Entry (Cheques Only)",
+      "handler": "ReceipBK_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "vrgridbk"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "TermDepositsLedger",
+      "label": "Term Deposites",
+      "handler": "termDepositesToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpersonal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanAndAdvancesLedger",
+      "label": "Loan and Advances",
+      "handler": "loanAndAdvancesToolStripMenuItem1_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpersonal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ExceptionAndErrorRegister",
+      "label": "Exception and Error Register",
+      "handler": "voucherCheckListToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printchecklist"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "StandingInstruction",
+      "label": "Standing Instructions",
+      "handler": "StandInst_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "standinginstruction"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ClearCheques",
+      "label": "Clear Cheques",
+      "handler": "cLEARcHEQUE_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "banktorcpt"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "RDDemand",
+      "label": "RD Demand",
+      "handler": "rDDemandToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "SubledgerAccounts",
+      "label": "Sub Ledger A/c",
+      "handler": "Subledger_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "subledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "RefnoWiseSubLedger",
+      "label": "Refno wise sub Ledger",
+      "handler": "Sledger_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printsubledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ConfigureBranchs",
+      "label": "Configure Bank  Branchs",
+      "handler": "configureBranchsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "branchname"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CloseFianacialYear",
+      "label": "Close Financial Year",
+      "handler": "CloseYear_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "encryptor"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "BackupDatabase",
+      "label": "Backup Database",
+      "handler": "Backup_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "backup"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ExecuteSQLCommand",
+      "label": "Execute SQL Command",
+      "handler": "ExecuteSQLCommand_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "sqltool"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ClearingListToBank",
+      "label": "Clearing List to Bank",
+      "handler": "Clearinglist_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ClearingList",
+      "label": "Clearing Book",
+      "handler": "Clearing_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "PersonalLedgerAll",
+      "label": "Personal Ledger All",
+      "handler": "personalLedgerAllToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpersonal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanDemandLedger",
+      "label": "Demand Ledger",
+      "handler": "demandLedgerToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpersonal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "PersonalLedgerNPA",
+      "label": "Personal Ledger NPA",
+      "handler": "NPALedger_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpersonal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "RMI",
+      "label": "RMI Calculator",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "EMI",
+      "label": "EMI Calculator",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "RD",
+      "label": "RD Calculator",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel1",
+      "label": "Calculator",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel3",
+      "label": "Rate Calculator",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "linkLabel2",
+      "label": "FD Calculator",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "PersonalLedgerVertical",
+      "label": "Personal Ledger Vertical",
+      "handler": "PersonalVer_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpersonal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanRecoveryList_All",
+      "label": "Loan Recovery List",
+      "handler": "loanRecoveryListToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "OnMaturePreMatureTD",
+      "label": "Term Deposit Payment / Pre Payment",
+      "handler": "preMatFD_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "adjustfdvoucher"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanDefaulterList_All",
+      "label": "Loan Defaulter List - Society",
+      "handler": "loanDefaulterListToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ChangeStopInstalment",
+      "label": "Change / Stop Instalment",
+      "handler": "changeStopInstalmentToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "stopinstal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "InterestAccrudeOnTD",
+      "label": "Interest Accrued on Term Deposit",
+      "handler": "interestAccrudOnTermDepositToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "InterestAccrudeOnLoan",
+      "label": "Interest Accrued on Loan",
+      "handler": "interestAccrudOnLoanToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MatureNonPaidFDR",
+      "label": "Mature /Non Paid FDR",
+      "handler": "MatnonPaid_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MatureDeposits",
+      "label": "Mature Deposits",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "LongBookGrouped",
+      "label": "Long Book Grouped",
+      "handler": "LongBookG_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MonthlyPDCDetail",
+      "label": "Monthly PDC Detail",
+      "handler": "monthlyPDCDetailToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanAndAdvancesAllHead",
+      "label": "Loan And Advances All Head",
+      "handler": "LoanAll_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpersonal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberWiseNPA",
+      "label": "MemberWise NPA",
+      "handler": "memberWiseNPAToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ListOfArbitration",
+      "label": "List of Arbitration Cases",
+      "handler": "listOfArbitrationCasesToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ArbitrationAndRecoveryLetter",
+      "label": "Arbitration and Recovery Letter",
+      "handler": "arebToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarb"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "InterestPaidOrCredited",
+      "label": "Interest Paid Or Credited",
+      "handler": "interestPaidOrCreditedToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "NPAInterestAccrude",
+      "label": "NPA Interest Accrued",
+      "handler": "nPAInterestToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "InterestAccrudeOnTDGrouped",
+      "label": "Interest Accrued on Term Deposit Grouped",
+      "handler": "Inttaccrude_B_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanDefaulterList_RCS",
+      "label": "Loan Defaulter List for RCS",
+      "handler": "LoanDefaulter_B_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ChequeReturnLetter",
+      "label": "Cheque Return Letter",
+      "handler": "chequeReturnLetterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "RecoveryLetter",
+      "label": "Recovery Letter",
+      "handler": "recoveryLetterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "XLToData",
+      "label": "XL To Data",
+      "handler": "xLToDataToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "xltprcpt"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberBalance",
+      "label": "Member Balance",
+      "handler": "memberBalanceToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printintt"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberBalanceIntt",
+      "label": "Member Balance Intt",
+      "handler": "membeerBalanceInttToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printintt"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "InterestAccrudeOnOD",
+      "label": "Interest On Ordinary Deposit",
+      "handler": "ODInterest_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanInterestSummary",
+      "label": "Loan Interest Summary",
+      "handler": "LoanSummary_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoginHistory",
+      "label": "Login History",
+      "handler": "loginHistoryToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "loghistory"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ResignedMembersBalances",
+      "label": "Resigned Members' Balances",
+      "handler": "resignedMembersBalancesToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "FDInterestCertificate",
+      "label": "FD Interest Certificate",
+      "handler": "fDInterestCertificateToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanInterestCertificate_PI",
+      "label": "Loan Interest Certificate (Prin + Intt)",
+      "handler": "loanInterestCertificateToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanSubLedgerBalance",
+      "label": "Loan Sub Ledger Balance",
+      "handler": "ledgerBalanceToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "StatementOfLoanAccount",
+      "label": "Statement of Loan Account",
+      "handler": "statementOfLoanAccountToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "StatementOfDeposit",
+      "label": "Statement of Deposit",
+      "handler": "statementOfDeepositToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberAddressAndContact",
+      "label": "Member's Address and Contact",
+      "handler": "membersAddressAndContactToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DayBookOld",
+      "label": "Day Book Old",
+      "handler": "dayBookOldToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LastPaymentMember",
+      "label": "Last Payment Member",
+      "handler": "lastPaymentMemberToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LastPaymentLoan",
+      "label": "Last Payment Loan",
+      "handler": "lastPaymentLoanToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CashFlowStatement",
+      "label": "Cash Flow Statement",
+      "handler": "cashFlowStatementToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printfinal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "BankBranchName",
+      "label": "Bank / Branch Name",
+      "handler": "toolStripMenuItem3_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanInterestCertificate_P",
+      "label": "Loan Interest Certificate (Prin Only)",
+      "handler": "Loancertprin_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MyBalanceView",
+      "label": "My Balance View",
+      "handler": "myBalanceViewToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "myview"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ArbitrationRecovery",
+      "label": "Arbitration and Recovery",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "MobiletoReceipt",
+      "label": "Mobile to Receipt",
+      "handler": "MObiletoRcpt_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "mobiletorcpt"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "SendSMS",
+      "label": "Send SMS",
+      "handler": "SendSMS_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "customizesms"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "RefreshBalance",
+      "label": "Refresh Balance",
+      "handler": "RefreshBalance_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "refreshbalance"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CashBankBook",
+      "label": "Cash / Bank Book",
+      "handler": "Cashbook_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "button11",
+      "label": "Arbitration Cases",
+      "handler": "button11_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "acmaster"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "sSMasterToolStripMenuItem",
+      "label": "SS Master",
+      "handler": "sSMasterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "ssmaster"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "sSReceiptToolStripMenuItem",
+      "label": "SS Receipt",
+      "handler": "sSReceiptToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "ssreceipt"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "sSConfigurationToolStripMenuItem",
+      "label": "SS Configuration",
+      "handler": "sSConfigurationToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "ssconfig"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyDayBook",
+      "label": "Day Book",
+      "handler": "dayBookToolStripMenuItem1_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyGenralLedgerVoucherWise",
+      "label": "General Ledger Voucher Wise",
+      "handler": "genralLedgerVoucherWiseToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyPersonalLedger",
+      "label": "Personal Ledger",
+      "handler": "personalLedgerToolStripMenuItem1_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyMemberwiseBalance",
+      "label": "Member Wise Balance",
+      "handler": "memberwiseBalanceToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyMemberwiseOverdue",
+      "label": "Member Wise Overdue",
+      "handler": "memberwiseOverdueToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyGeneralLedgerDateWise",
+      "label": "General Ledger Date Wise",
+      "handler": "genralLedgerDateWiseToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyNewAccounts",
+      "label": "New Accounts",
+      "handler": "newAccountsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DilayMaturedAccounts",
+      "label": "Matured Accounts",
+      "handler": "maturedAccountsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyActiveAccounts",
+      "label": "Active Accounts",
+      "handler": "activeAccountsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyClearedAccounts",
+      "label": "Cleared Accounts",
+      "handler": "clearedAccountsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyMemberwiseCollection",
+      "label": "Member Wise Collection",
+      "handler": "memberwiseCollectionToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyAgentwiseCollection",
+      "label": "Agent Wise Collection",
+      "handler": "agentwiseCollectionToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyMemberWiseBalancePI",
+      "label": "Member Wise Balance (P/I)",
+      "handler": "memberwiseBalancePIToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyMonthlyReceiptOfAMember",
+      "label": "Monthly Receipt of a Member",
+      "handler": "monthlyReceiptOfAMemberToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyMemberMaturityRegister",
+      "label": "Member Maturity Register",
+      "handler": "memberMaturityRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DailyMemberWiseSSDemand",
+      "label": "Member Wise SS Demand",
+      "handler": "memberWiseSSDemandToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "InwardLetter",
+      "label": "Inward Letter",
+      "handler": "inwardLetterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DiaryAndDispatchLetter",
+      "label": "Dispatch Letter All",
+      "handler": "diaryAndDispatchLetterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CaseSchedule",
+      "label": "Case Schedule",
+      "handler": "caseScheduleToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberSurety",
+      "label": "Member Surety",
+      "handler": "MemberSurety_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberDepositAndLoan",
+      "label": "Member Deposit && Loan",
+      "handler": "DepLoan_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printintt"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "InterestonLoanDiscount",
+      "label": "Interest on loan (Discount)",
+      "handler": "RLInterest10th_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "rlinterest10th"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "TransferInterestToPrincipal",
+      "label": "Transfer Interest to Principal",
+      "handler": "transferInterestToPrincipalToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "transferintt2prin"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CreateInstalment",
+      "label": "Create Instalment",
+      "handler": "CreateInstal_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "createinstalment"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberIntroducer",
+      "label": "Member's Introducer",
+      "handler": "memIntroducer_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "button19",
+      "label": "Reverse Voucher",
+      "handler": "button19_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "reversevoucher"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DataView",
+      "label": "Data View",
+      "handler": "dataViewToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "databaseviewer"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "BirthdaySMSGreetings",
+      "label": "Birthday SMS Greetings",
+      "handler": "BdaySMS_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "birthdaysms"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberIndexStatus",
+      "label": "Member Index-Status",
+      "handler": "memStatus_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MonthlyDeduction",
+      "label": "Monthly Deduction",
+      "handler": "Deduction_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "deduct"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanRecoveryList_Bharat",
+      "label": "Loan Recovery List",
+      "handler": "LoanRecoveryList_Bharat_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MonthlyDemand_Bharat",
+      "label": "Monthly Demand",
+      "handler": "MonthlyDemand_Bharat_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanDefaulterList_Bharat",
+      "label": "Loan Defaulter List - Society",
+      "handler": "LoanDefaulterList_Bharat_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "OrdinaryDepositRegister_Bharat",
+      "label": "Ordinary Deposit Register",
+      "handler": "OrdinaryDepositRegister_Bharat_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanDefaulterListSurety",
+      "label": "Loan Defaulter List with Surety",
+      "handler": "LoanDefaulterListSurety_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Label73",
+      "label": "Member Address Label 7 * 3",
+      "handler": "Label73_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printlabel"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "createInstalmentsOldCurrentToolStripMenuItem",
+      "label": "Create Instalments old && current",
+      "handler": "createInstalmentsOldCurrentToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "createoldinstalments"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DateDiff",
+      "label": "Date Diff.",
+      "handler": null,
+      "kind": "link",
+      "sourceType": "LinkLabel",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "FDinttDuedate",
+      "label": "Interest on Mly/Qly Deposit",
+      "handler": "FDinttDuedate_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "fdinterestduedate"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DepositeAll",
+      "label": "Term Deposit All Head",
+      "handler": "DepositeAll_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpersonal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "PDCRegister",
+      "label": "PDC Register",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "monthlyPaymentByChequeToolStripMenuItem",
+      "label": "Monthly payment by Cheque",
+      "handler": "monthlyPaymentByChequeToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpdc"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "monthlyPaymnetToolStripMenuItem",
+      "label": "Monthly payment by Cash",
+      "handler": "monthlyPaymnetToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpdc"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "twoOrLessChequeToolStripMenuItem",
+      "label": "Two or less Cheque",
+      "handler": "twoOrLessChequeToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpdc"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "listOfAllchequeOfAMemberToolStripMenuItem",
+      "label": "List of allcheque of a member",
+      "handler": "listOfAllchequeOfAMemberToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpdc"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "bounceChequeToolStripMenuItem",
+      "label": "Bounce Cheque",
+      "handler": "bounceChequeToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpdc"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "holdChequeToolStripMenuItem",
+      "label": "Hold Cheque",
+      "handler": "holdChequeToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpdc"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "pDCWithoutActiveLoanToolStripMenuItem",
+      "label": "PDC Without Active Loan",
+      "handler": "pDCWithoutActiveLoanToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpdc"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "VoucherByMember",
+      "label": "Voucher By Member",
+      "handler": "VoucherByMember_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ResignByShare",
+      "label": "Resignation By Share",
+      "handler": "ResignByShare_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberLocationSearch",
+      "label": "Member Location Search",
+      "handler": "MemberLocationSearch_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberWiseIntroducers",
+      "label": "First Introducer wise List",
+      "handler": "MemberWiseIntroducers_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "VoucherBYAgent",
+      "label": "Voucher By Agent",
+      "handler": "VoucherBYAgent_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "interestAccruedForITR",
+      "label": "Interest Accrued for ITR",
+      "handler": "interestAccruedForITRToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "SecondIntro",
+      "label": "Second Introducer wise list",
+      "handler": "SecondIntro_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberReg",
+      "label": "Membership Register",
+      "handler": "MemberReg_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "NettmemSignature",
+      "label": "Nett Member Signature",
+      "handler": "NettmemSignature_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "dispatchLetterToolStripMenuItem",
+      "label": "Dispatch Letter to Members",
+      "handler": "dispatchLetterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "SuretyGivenRegister_B",
+      "label": "Surety Given Register",
+      "handler": "SuretyGivenRegister_B_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "defuctMemberLetter",
+      "label": "Defunct Member Letters",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "firstNoticeDefunct",
+      "label": "First Notice",
+      "handler": "firstNoticeDefunct_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "secondNoticeDefunct",
+      "label": "Second Notice",
+      "handler": "secondNoticeDefunct_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "finalNoticeDefunct",
+      "label": "Final Notice",
+      "handler": "finalNoticeDefunct_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printshare"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ErrorCheckLoan",
+      "label": "Loan Error Checking",
+      "handler": "ErrorCheckLoan_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "maturityLetterToolStripMenuItem",
+      "label": "Maturity Letter",
+      "handler": "maturityLetterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "VoucherPrinting",
+      "label": "Voucher Printing",
+      "handler": "VoucherPrinting_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "duplicatevoucher"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Message",
+      "label": "Member's Message",
+      "handler": "Message_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "mrmess"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "noDuesCertificateToolStripMenuItem",
+      "label": "No Dues Certificate",
+      "handler": "noDuesCertificateToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "BalanceSummary",
+      "label": "Balance Summary",
+      "handler": "BalanceSummary_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberElect",
+      "label": "Member's For Election",
+      "handler": "MemberElect_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "unclearedOrUnpresentedChequeToolStripMenuItem",
+      "label": "Uncleared or Unpresented Cheque",
+      "handler": "unclearedOrUnpresentedChequeToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "recomaster"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "toolStripMenuItem1",
+      "label": "Mobile No. List for SMS",
+      "handler": "toolStripMenuItem1_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "mobilenosms"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CheqAcknowledgement",
+      "label": "Cheque Acknowledgement",
+      "handler": "CheqAcknowledgement_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "cheqacknowledge"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "interestAccruedToMemberForITRToolStripMenuItem",
+      "label": "Interest Accrued Refwise for ITR",
+      "handler": "interestAccruedToMemberForITRToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "AdjustDemand",
+      "label": "Adjust Demand",
+      "handler": "AdjustDemand_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "adjustment"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "BankReco",
+      "label": "Bank Reco",
+      "handler": "BankReco_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Defaulterloneesurety",
+      "label": "Lonee && Surety Defaulter",
+      "handler": "Defaulterloneesurety_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanDefaulterByDate",
+      "label": "Loan Defaulter By Date",
+      "handler": "LoanDefaulterByDate_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "allReferenceNoToolStripMenuItem",
+      "label": "All Reference No",
+      "handler": "allReferenceNoToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "allrefno"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "visualAnalyserToolStripMenuItem",
+      "label": "Visual Analyser",
+      "handler": "visualAnalyserToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "visualanalizer-a"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "BestLonee",
+      "label": "Best Lonee AGM",
+      "handler": "BestLonee_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "BestDepositer",
+      "label": "Best Depositer",
+      "handler": "BestDepositer_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "PrinInttDefaulter",
+      "label": "Interest wise Defaulter",
+      "handler": "PrinInttDefaulter_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "RDMaturity",
+      "label": "RD Maturity",
+      "handler": "RDMaturity_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DemandSMS",
+      "label": "Demand SMS",
+      "handler": "DemandSMS_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "downloadTeamViewerToolStripMenuItem",
+      "label": "Download TeamViewer",
+      "handler": "downloadTeamViewerToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "teamviewer"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "GSTRECEIPT",
+      "label": "Receipt Entry (GST)",
+      "handler": "GSTRECEIPT_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "gstreceipt"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "GSTPayment",
+      "label": "Payment Entry (GST)",
+      "handler": "GSTPayment_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "gstpayment"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "GST",
+      "label": "GST Register",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "gSTReceiptToolStripMenuItem",
+      "label": "GST Receipt/Output",
+      "handler": "gSTReceiptToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "gst"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "gSTPaymentInputToolStripMenuItem",
+      "label": "GST Payment/Input",
+      "handler": "gSTPaymentInputToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "gst"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "gSTToolStripMenuItem1",
+      "label": "GST Book",
+      "handler": "gSTToolStripMenuItem1_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "gst"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "GSTVoucher",
+      "label": "Voucher Entry GST",
+      "handler": "GSTVoucher_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "gstvoucher"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "SMSText",
+      "label": "SMS Text Configuration",
+      "handler": "SMSText_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "smstext"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Receiptbymember",
+      "label": "Receipt By Member",
+      "handler": "Receiptbymember_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "TranbyMEmber",
+      "label": "Transaction By Members",
+      "handler": "TranbyMEmber_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MEMDEPLOANINTT",
+      "label": "Member Deposit Loan & Interest",
+      "handler": "MEMDEPLOANINTT_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printintt"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "uploadRowsToolStripMenuItem",
+      "label": "Upload Rows",
+      "handler": "uploadRowsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "uploadbalances"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "toolStripMenuItem2",
+      "label": "Cheque Bounce to Bank",
+      "handler": "toolStripMenuItem2_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "interestDetailsOfMemberToolStripMenuItem",
+      "label": "Interest Details Of Member",
+      "handler": "interestDetailsOfMemberToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdeposit"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "toolStripMenuItem3",
+      "label": "List of User and Agents",
+      "handler": "toolStripMenuItem3_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "dateWiseSSTotalToolStripMenuItem",
+      "label": "Date Wise SS Total",
+      "handler": "dateWiseSSTotalToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "UpdateIFSC",
+      "label": "Update IFSC Code",
+      "handler": "UpdateIFSC_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "ifsc"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "overudeWiseToolStripMenuItem",
+      "label": "Overude Wise",
+      "handler": "overudeWiseToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "statusWiseToolStripMenuItem",
+      "label": "Status Wise",
+      "handler": "statusWiseToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "TermDepositPrincipalonly",
+      "label": "Term Deposit Principal Only",
+      "handler": "TermDepositPrincipalonly_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpersonal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberBalanceITR",
+      "label": "Member Balance ITR",
+      "handler": "MemberBalanceITR_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printintt"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberinttTDITR",
+      "label": "Member Interest ITR (T.D.)",
+      "handler": "MemberinttTDITR_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberInterstITRLOAN",
+      "label": "Member Interest ITR (Loan)",
+      "handler": "MemberInterstITRLOAN_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DepositPassbook",
+      "label": "Deposit Passbook",
+      "handler": "DepositPassbook_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpersonal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "RescheduleEMI",
+      "label": "Reschedule EMI",
+      "handler": "RescheduleEMI_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "loanreshedule"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "govtMenu",
+      "label": "Govt Menu",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "recoveryList",
+      "label": "Recovery List",
+      "handler": "recoveryList_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "demandList",
+      "label": "Demand List",
+      "handler": "demandList_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "BestLoneeIntt",
+      "label": "Best Lonee for Interest",
+      "handler": "BestLoneeIntt_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "PersonalLedgerDetail",
+      "label": "Personal Ledger Detail",
+      "handler": "PersonalLedgerDetail_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printpersonal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "VoucherListSummary",
+      "label": "Voucher Summary",
+      "handler": "VoucherListSummary_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "toolStripMenuItem7",
+      "label": "Member Cash Transaction",
+      "handler": "toolStripMenuItem7_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "toolStripMenuItem8",
+      "label": "NOTICES",
+      "handler": "toolStripMenuItem8_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "reminderToolStripMenuItem",
+      "label": "Reminder",
+      "handler": "reminderToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "firstNoticeToolStripMenuItem",
+      "label": "First Notice",
+      "handler": "firstNoticeToolStripMenuItem_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "secondNoticeToolStripMenuItem",
+      "label": "Second Notice",
+      "handler": "secondNoticeToolStripMenuItem_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "thirdNotice",
+      "label": "Third Notice",
+      "handler": "thirdNoticeToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "finalNoticeToolStripMenuItem",
+      "label": "Final Notice",
+      "handler": "finalNoticeToolStripMenuItem_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "letterBeforeArbitrationToolStripMenuItem",
+      "label": "Letter Before Arbitration",
+      "handler": "letterBeforeArbitrationToolStripMenuItem_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "toolStripMenuItem9",
+      "label": "ARBRITATION",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "mCResolutionToolStripMenuItem",
+      "label": "M.C. Resolution",
+      "handler": "mCResolutionToolStripMenuItem_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "applicationForArbritrationToolStripMenuItem",
+      "label": "Application for Arbritration(Form 12)",
+      "handler": "applicationForArbritrationToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "form12ForPropertyToolStripMenuItem",
+      "label": "Form 12 for Property",
+      "handler": "form12ForPropertyToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "indexUs70ToolStripMenuItem",
+      "label": "Index U/s 70",
+      "handler": "indexUs70ToolStripMenuItem_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "indexUsToolStripMenuItem",
+      "label": "Index U/s 70 (New Format)",
+      "handler": "indexUsToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "aRSummonIToolStripMenuItem",
+      "label": "AR Summon I",
+      "handler": "aRSummonIToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "aRSummonIIToolStripMenuItem",
+      "label": "AR Summon II",
+      "handler": "aRSummonIIToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "aRSummonIIIToolStripMenuItem",
+      "label": "AR Summon III",
+      "handler": "aRSummonIIIToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "dRSummonIToolStripMenuItem",
+      "label": "DR Summon I",
+      "handler": "dRSummonIToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "dRSummonIIToolStripMenuItem",
+      "label": "DR Summon II",
+      "handler": "dRSummonIIToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "orderUnderSec70ToolStripMenuItem",
+      "label": "Order Under Sec. 70",
+      "handler": "orderUnderSec70ToolStripMenuItem_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "awardListToolStripMenuItem",
+      "label": "Award List",
+      "handler": "awardListToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "toolStripMenuItem4",
+      "label": "RECOVERY",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "form27ToolStripMenuItem",
+      "label": "Form 27",
+      "handler": "form27ToolStripMenuItem_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "form28ToolStripMenuItem",
+      "label": "Form 28",
+      "handler": "form28ToolStripMenuItem_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "form29ToolStripMenuItem",
+      "label": "Form 29",
+      "handler": "form29ToolStripMenuItem_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "form29QuaterlyCompoundedToolStripMenuItem",
+      "label": "Form 29  Quaterly Compounded",
+      "handler": "form29QuaterlyCompoundedToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "summonCollectorToolStripMenuItem",
+      "label": "Summon (Collector)",
+      "handler": "summonCollectorToolStripMenuItem_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "warrentOfAToolStripMenuItem",
+      "label": "Warrent of Arrest",
+      "handler": "warrentOfAToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "salaryAttacmentToolStripMenuItem",
+      "label": "Salary Attacment",
+      "handler": "salaryAttacmentToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "salaryAttacmentSocietyToolStripMenuItem",
+      "label": "Salary Attacment Society",
+      "handler": "salaryAttacmentSocietyToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "salaryAttactmentReminderToolStripMenuItem",
+      "label": "Salary Attactment Reminder",
+      "handler": "salaryAttactmentReminderToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "bankAccountSeizToolStripMenuItem",
+      "label": "Bank Account Seize",
+      "handler": "bankAccountSeizToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "recoveryListToolStripMenuItem",
+      "label": "Cases Under Recovery",
+      "handler": "recoveryListToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "caseToolStripMenuItem",
+      "label": "Case Schedule",
+      "handler": "caseToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "toolStripMenuItem5",
+      "label": "Transaction By Members Employees Wise",
+      "handler": "toolStripMenuItem5_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "membercontactbranchwise",
+      "label": "Member Index-Contact Branch Wise",
+      "handler": "membercontactbranchwise_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "toolStripMenuItem6",
+      "label": "Member Index-Sign Branch wise",
+      "handler": "toolStripMenuItem6_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DebitVoucher",
+      "label": "Create Debit/Credit Voucher",
+      "handler": "DebitVoucher_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "debitvoucher"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberTransaction",
+      "label": "Member Transaction",
+      "handler": "MemberTransaction_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "toolStripMenuItem10",
+      "label": "Index U/S 70 DR",
+      "handler": "toolStripMenuItem10_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "toolStripMenuItem11",
+      "label": "Order U/s 70 DR",
+      "handler": "toolStripMenuItem11_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "DRSUMMONIII",
+      "label": "DR Summon III",
+      "handler": "DRSUMMONIII_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CashBookGrouped",
+      "label": "Cash / Bank Book Agent Wise",
+      "handler": "CashBookGrouped_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Transactionwiseledger",
+      "label": "Transaction wise Leder",
+      "handler": "Transactionwiseledger_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Form28Property",
+      "label": "Form 28 Property",
+      "handler": "Form28Property_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "CashTransaction",
+      "label": "Cash Transaction",
+      "handler": "CashTransaction_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MemberBalanceGrouped",
+      "label": "Member Balance Agent Wise",
+      "handler": "MemberBalanceGrouped_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printintt"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "dateWiseMemberTransactionToolStripMenuItem",
+      "label": "Date Wise Member Transaction",
+      "handler": "dateWiseMemberTransactionToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printdaily"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "GenerateCDDemand",
+      "label": "Generate CD Demand",
+      "handler": "GenerateCDDemand_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "cddemand"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "NewLoanRecommend",
+      "label": "New Loan Recommend",
+      "handler": "NewLoanRecommend_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "SalaryAttachmentReminderII",
+      "label": "Salary Attachment Reminder II",
+      "handler": "SalaryAttachmentReminderII_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "toolStripMenuItem12",
+      "label": "DR Summon IV",
+      "handler": "toolStripMenuItem12_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "MonthlyDefaulter",
+      "label": "Monthly Defaulter",
+      "handler": "MonthlyDefaulter_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ResignLetter",
+      "label": "Member Resignation Letter",
+      "handler": "ResignLetter_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "pDCSubmitToolStripMenuItem",
+      "label": "PDC Submit Letter",
+      "handler": "pDCSubmitToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanSettelmentletter",
+      "label": "Loan Settelment Letter",
+      "handler": "LoanSettelmentletter_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "ContraVoucher",
+      "label": "Contra Voucher",
+      "handler": "ContraVoucher_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "contravoucher"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Commission",
+      "label": "Commission to Member",
+      "handler": "Commission_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "commission"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "branchMenu",
+      "label": "Branch Menu",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "cashBookToolStripMenuItem",
+      "label": "Cash / Bank Book",
+      "handler": "cashBookToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printbooks"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "dayBookToolStripMenuItem",
+      "label": "Day Book",
+      "handler": "dayBookToolStripMenuItem_Click_1",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "closingTrialToolStripMenuItem",
+      "label": "Closing Trial",
+      "handler": "closingTrialToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printfinal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "generalLedgerToolStripMenuItem",
+      "label": "General Ledger",
+      "handler": "generalLedgerToolStripMenuItem_Click_2",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "monToolStripMenuItem",
+      "label": "Monthly Income  Register",
+      "handler": "monToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printfinal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "monthlyExpenceRegisterToolStripMenuItem",
+      "label": "Monthly Expence Register",
+      "handler": "monthlyExpenceRegisterToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printfinal"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "arbitrationListToolStripMenuItem",
+      "label": "Cases Under Arbitration",
+      "handler": "arbitrationListToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printarba"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "rDInterestPrintingToolStripMenuItem",
+      "label": "RD Interest Printing",
+      "handler": "rDInterestPrintingToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "rdprint"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "JourVoucher",
+      "label": "Automated Journal Vouchr",
+      "handler": "JourVoucher_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "jourvoucher"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "toolStripMenuItem13",
+      "label": "Monthly ECS",
+      "handler": "toolStripMenuItem13_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "arbitationAndRecoveryToolStripMenuItem",
+      "label": "Arbitation and Recovery",
+      "handler": "arbitationAndRecoveryToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "arbitrationform"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "Overdue",
+      "label": "Overdue and Deferment charges",
+      "handler": "Overdue_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "overdueinterest"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "InOperativeLetter",
+      "label": "InOperative A/c Letter",
+      "handler": "InOperativeLetter_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printledger"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "LoanTran",
+      "label": "Loan Transaction Summary",
+      "handler": "LoanTran_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printloan"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "toolStripMenuItem14",
+      "label": "Member Index -KYC",
+      "handler": "toolStripMenuItem14_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    },
+    {
+      "name": "toolStripMenuItem15",
+      "label": "Member Address And Contact Branch Wise",
+      "handler": "toolStripMenuItem15_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "printmember"
+      ],
+      "reportTargets": []
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 0,
+  "screenConfidence": "source-backed"
+}

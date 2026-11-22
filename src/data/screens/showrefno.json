@@ -1,0 +1,31 @@
+{
+  "id": "showrefno",
+  "name": "ShowRefno",
+  "title": "ShowRefno",
+  "category": "Reports and member views",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/ShowRefno.cs",
+  "line": 10,
+  "fields": [],
+  "actions": [
+    {
+      "name": "Exit",
+      "label": "button1",
+      "handler": "Exit_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "dg",
+      "columns": []
+    }
+  ],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": false,
+  "dialogCallCount": 1,
+  "screenConfidence": "source-backed"
+}

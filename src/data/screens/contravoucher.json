@@ -1,0 +1,158 @@
+{
+  "id": "contravoucher",
+  "name": "ContraVoucher",
+  "title": "ContraVoucher",
+  "category": "Transactions and vouchers",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/ContraVoucher.cs",
+  "line": 11,
+  "fields": [
+    {
+      "name": "CrGlcode",
+      "label": "Bank / Cash from :",
+      "type": "select",
+      "section": "Create Contra Voucher",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "Vdate",
+      "label": "Vdate",
+      "type": "text",
+      "section": "Create Contra Voucher",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Narr",
+      "label": "Narration",
+      "type": "textarea",
+      "section": "Create Contra Voucher",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "DrGlcode",
+      "label": "Bank / Cash to :",
+      "type": "select",
+      "section": "Create Contra Voucher",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "CheqBank",
+      "label": "Cheque Bank",
+      "type": "textarea",
+      "section": "Create Contra Voucher",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "CheqAmount",
+      "label": "Cheque Amount",
+      "type": "textarea",
+      "section": "Create Contra Voucher",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "CheqDate",
+      "label": "Cheque Date",
+      "type": "textarea",
+      "section": "Create Contra Voucher",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "CheqNo",
+      "label": "Cheque No.",
+      "type": "textarea",
+      "section": "Create Contra Voucher",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Amount",
+      "label": "Amount",
+      "type": "text",
+      "section": "Create Contra Voucher",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Create",
+      "label": "Create Contra Voucher",
+      "handler": "Create_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "button2",
+      "label": "Cancel",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [],
+  "sections": [
+    {
+      "field": "GB",
+      "label": "Create Contra Voucher"
+    }
+  ],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 6,
+  "screenConfidence": "source-backed"
+}

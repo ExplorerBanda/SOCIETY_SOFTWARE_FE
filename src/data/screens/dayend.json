@@ -1,0 +1,28 @@
+{
+  "id": "dayend",
+  "name": "DayEnd",
+  "title": "Run Day End",
+  "category": "Administration and utilities",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/DayEnd.cs",
+  "line": 12,
+  "fields": [],
+  "actions": [
+    {
+      "name": "updateRulesToolStripMenuItem",
+      "label": "Update Rules",
+      "handler": "updateRulesToolStripMenuItem_Click",
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [
+        "updatedayend"
+      ],
+      "reportTargets": []
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 4,
+  "screenConfidence": "source-backed"
+}

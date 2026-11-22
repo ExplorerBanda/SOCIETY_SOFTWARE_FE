@@ -1,0 +1,120 @@
+{
+  "id": "uploadbalances",
+  "name": "UploadBalances",
+  "title": "Upload Balances on Cloud",
+  "category": "Administration and utilities",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/UploadBalances.cs",
+  "line": 11,
+  "fields": [
+    {
+      "name": "Umemno",
+      "label": "Upto Memno",
+      "type": "text",
+      "section": "Single or Multi Member/Balance Upload",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Memno",
+      "label": "From Memno",
+      "type": "text",
+      "section": "Single or Multi Member/Balance Upload",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Mpassword",
+      "label": "New Password",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Cmemno",
+      "label": "Memno",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "UploadGL",
+      "label": "Upload Ledger A/c",
+      "handler": "UploadGL_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Uploadconfig",
+      "label": "Upload Configuration Details",
+      "handler": "Uploadconfig_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "UploadMember",
+      "label": "Upload Member",
+      "handler": "UploadMember_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "UploadBalance",
+      "label": "Upload Balance",
+      "handler": "UploadBalance_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "ChangePass",
+      "label": "ChangePassword",
+      "handler": "ChangePass_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [],
+  "sections": [
+    {
+      "field": "groupBox1",
+      "label": "Single or Multi Member/Balance Upload"
+    }
+  ],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 15,
+  "screenConfidence": "source-backed"
+}

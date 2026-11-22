@@ -1,0 +1,26 @@
+{
+  "id": "createinstalment",
+  "name": "CreateInstalment",
+  "title": "CreateInstalment",
+  "category": "Loans and credit processing",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/CreateInstalment.cs",
+  "line": 13,
+  "fields": [],
+  "actions": [
+    {
+      "name": "Create",
+      "label": "Create Instalment",
+      "handler": "Create_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 4,
+  "screenConfidence": "source-backed"
+}

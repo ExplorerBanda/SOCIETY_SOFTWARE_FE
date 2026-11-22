@@ -1,0 +1,109 @@
+{
+  "id": "yearlytransaction",
+  "name": "YearlyTransaction",
+  "title": "YearlyTransaction",
+  "category": "Reports and print workflows",
+  "source": "recovered/decompiled/Reporter/QuickTC.Forms/YearlyTransaction.cs",
+  "line": 16,
+  "fields": [
+    {
+      "name": "checkBox1",
+      "label": "check Box1",
+      "type": "checkbox",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "CheckBox"
+    },
+    {
+      "name": "Vdate",
+      "label": "Upto  Date",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Fdate",
+      "label": "From  Date",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "button4",
+      "label": "Check MIS / MD",
+      "handler": "button4_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepYearlyTran_M"
+      ]
+    },
+    {
+      "name": "button3",
+      "label": "Check FD / RD",
+      "handler": "button3_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepYearlyTran_F"
+      ]
+    },
+    {
+      "name": "button2",
+      "label": "Check Loan / Advances",
+      "handler": "button2_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepYearlyTran_L"
+      ]
+    },
+    {
+      "name": "button1",
+      "label": "Check Ordinary Deposit",
+      "handler": "button1_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepYearlyTran"
+      ]
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 4,
+  "screenConfidence": "source-backed"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "visualanalizer-a",
+  "name": "VisualAnalizer_A",
+  "title": "Visual Analyzer",
+  "category": "Reports and print workflows",
+  "source": "recovered/decompiled/Reporter/QuickTC.Reports/VisualAnalizer_A.cs",
+  "line": 12,
+  "fields": [
+    {
+      "name": "Vdate",
+      "label": "Vdate",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Liabilities",
+      "label": "Liabilities",
+      "handler": "Liabilities_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "Repfin9"
+      ]
+    },
+    {
+      "name": "Assets",
+      "label": "Assets",
+      "handler": "Assets_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "Repfin9"
+      ]
+    },
+    {
+      "name": "Income",
+      "label": "Income",
+      "handler": "Income_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "Repfin9"
+      ]
+    },
+    {
+      "name": "Expense",
+      "label": "Expense",
+      "handler": "Expense_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "Repfin9"
+      ]
+    },
+    {
+      "name": "Breakup",
+      "label": "Breakup of Profit and Loss",
+      "handler": "Breakup_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "Repfin8"
+      ]
+    }
+  ],
+  "grids": [],
+  "sections": [],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 5,
+  "screenConfidence": "source-backed"
+}

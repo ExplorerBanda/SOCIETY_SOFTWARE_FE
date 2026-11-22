@@ -1,0 +1,413 @@
+{
+  "id": "ddmaster",
+  "name": "DDmaster",
+  "title": "DDmaster",
+  "category": "Arbitration and correspondence",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/DDmaster.cs",
+  "line": 12,
+  "fields": [
+    {
+      "name": "Dtype",
+      "label": "Mode of Posting",
+      "type": "select",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "Resoff",
+      "label": "Postal Mode",
+      "type": "select",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "Charges",
+      "label": "Over Due",
+      "type": "text",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Postage",
+      "label": "Postal Charges",
+      "type": "text",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "DDate",
+      "label": "Dispatch Date",
+      "type": "text",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Addr",
+      "label": "Address",
+      "type": "text",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Mname",
+      "label": "Name",
+      "type": "text",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Title",
+      "label": "Subject",
+      "type": "text",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Memno",
+      "label": "Memno",
+      "type": "text",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "DispNo",
+      "label": "Dispatch no.",
+      "type": "text",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "DispID",
+      "label": "Disp ID",
+      "type": "text",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": false,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "YearID",
+      "label": "Year ID",
+      "type": "text",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": false,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "XDDate",
+      "label": "Date",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Xmemno",
+      "label": "Memno",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Branch",
+      "label": "Branch",
+      "type": "text",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": false,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "St1",
+      "label": "St1",
+      "type": "text",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": false,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Sdate",
+      "label": "Sdate",
+      "type": "text",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": false,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Particular",
+      "label": "Particular",
+      "type": "text",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 100,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "ST",
+      "label": "Deliver/Undeliver",
+      "type": "select",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "DockNo",
+      "label": "Dock No.",
+      "type": "text",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 20,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "_ChkSMS",
+      "label": "Chk SMS",
+      "type": "checkbox",
+      "section": "Add /Edit",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "CheckBox"
+    },
+    {
+      "name": "_DispNo",
+      "label": "Dispactch No.",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Delete",
+      "label": "Delete",
+      "handler": "Delete_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Cancel",
+      "label": "Cancel",
+      "handler": "Cancel_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Save",
+      "label": "Save",
+      "handler": "button1_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "Search",
+      "label": "Search",
+      "handler": "Search_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "firstNoticeToolStripMenuItem",
+      "label": "First Notice",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "secondNoticeToolStripMenuItem",
+      "label": "Second Notice",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "finalNoticeToolStripMenuItem",
+      "label": "Final Notice",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "letterBeforeArbitrationToolStripMenuItem",
+      "label": "Letter Before Arbitration",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "chequeBounceToolStripMenuItem",
+      "label": "Cheque Bounce",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "reminderToolStripMenuItem",
+      "label": "Reminder",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "otherToolStripMenuItem",
+      "label": "Other",
+      "handler": null,
+      "kind": "button",
+      "sourceType": "ToolStripMenuItem",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "DG",
+      "columns": []
+    }
+  ],
+  "sections": [
+    {
+      "field": "GB",
+      "label": "Add /Edit"
+    }
+  ],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 4,
+  "screenConfidence": "source-backed"
+}

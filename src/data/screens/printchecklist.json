@@ -1,0 +1,112 @@
+{
+  "id": "printchecklist",
+  "name": "PrintCheckList",
+  "title": "Check List",
+  "category": "Reports and print workflows",
+  "source": "recovered/decompiled/Reporter/QuickTC.Reports/PrintCheckList.cs",
+  "line": 15,
+  "fields": [
+    {
+      "name": "CB",
+      "label": "CB",
+      "type": "select",
+      "section": "Select Error Report",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "Vdate",
+      "label": "Transaction as on",
+      "type": "text",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "CB2",
+      "label": "Sub Ledger Code",
+      "type": "select",
+      "section": null,
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "button2",
+      "label": "Check wrong Intt/Penal",
+      "handler": "button2_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepWorngIntt"
+      ]
+    },
+    {
+      "name": "button1",
+      "label": "Check Opposite Balances",
+      "handler": "button1_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepCheckBalances"
+      ]
+    },
+    {
+      "name": "button3",
+      "label": "Error In Receipt and Disbursment",
+      "handler": "button3_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "myviewer"
+      ],
+      "reportTargets": [
+        "RepErrorRandD"
+      ]
+    },
+    {
+      "name": "button4",
+      "label": "Check Yearly Transaction",
+      "handler": "button4_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [
+        "yearlytransaction"
+      ],
+      "reportTargets": []
+    }
+  ],
+  "grids": [],
+  "sections": [
+    {
+      "field": "GB1",
+      "label": "Select Error Report"
+    }
+  ],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 0,
+  "screenConfidence": "source-backed"
+}

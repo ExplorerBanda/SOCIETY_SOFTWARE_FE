@@ -1,0 +1,180 @@
+{
+  "id": "overdueinterest",
+  "name": "OverdueInterest",
+  "title": "OverdueInterest",
+  "category": "Deposits, shares and savings",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/OverdueInterest.cs",
+  "line": 12,
+  "fields": [
+    {
+      "name": "Chgs",
+      "label": "Posting Date",
+      "type": "text",
+      "section": "OverDue Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Oasondate",
+      "label": "Tran Date",
+      "type": "text",
+      "section": "OverDue Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Oglcode",
+      "label": "Ledger Account",
+      "type": "select",
+      "section": "OverDue Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "OFrefno",
+      "label": "Bond No. From",
+      "type": "text",
+      "section": "OverDue Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "OUrefno",
+      "label": "Bond No. Upto",
+      "type": "text",
+      "section": "OverDue Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Postingdate",
+      "label": "Charges",
+      "type": "text",
+      "section": "Over Due Charges",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Asondate",
+      "label": "Tran Date",
+      "type": "text",
+      "section": "Over Due Charges",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Glcode",
+      "label": "Ledger Account",
+      "type": "select",
+      "section": "Over Due Charges",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "Frefno",
+      "label": "Bond No. From",
+      "type": "text",
+      "section": "Over Due Charges",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Urefno",
+      "label": "Bond No. Upto",
+      "type": "text",
+      "section": "Over Due Charges",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "button2",
+      "label": "Calculate Deferment Charges",
+      "handler": "button2_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    },
+    {
+      "name": "CalPinttt",
+      "label": "Calculate OverDue  Interest",
+      "handler": "CalPinttt_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "dg",
+      "columns": []
+    }
+  ],
+  "sections": [
+    {
+      "field": "GBP",
+      "label": "OverDue Interest"
+    },
+    {
+      "field": "GBI",
+      "label": "Over Due Charges"
+    }
+  ],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 6,
+  "screenConfidence": "source-backed"
+}

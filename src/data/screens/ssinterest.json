@@ -1,0 +1,154 @@
+{
+  "id": "ssinterest",
+  "name": "SSInterest",
+  "title": "SSInterest",
+  "category": "Deposits, shares and savings",
+  "source": "recovered/decompiled/QuickForms/QuickTC.Forms/SSInterest.cs",
+  "line": 11,
+  "fields": [
+    {
+      "name": "Tslcode",
+      "label": "Intt Transfer to",
+      "type": "text",
+      "section": "Daily Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 1,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Tglcode",
+      "label": "Intt Transfer to",
+      "type": "text",
+      "section": "Daily Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 4,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Minday",
+      "label": "Minbal Day",
+      "type": "text",
+      "section": "Daily Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 4,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "Pdate",
+      "label": "Posting Date",
+      "type": "text",
+      "section": "Daily Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 10,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "OFDate",
+      "label": "Interest From",
+      "type": "text",
+      "section": "Daily Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 10,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "OUdate",
+      "label": "To",
+      "type": "text",
+      "section": "Daily Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 10,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "OGlcode",
+      "label": "Ledger Account",
+      "type": "select",
+      "section": "Daily Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": null,
+      "visibleByDefault": true,
+      "sourceType": "ComboBox"
+    },
+    {
+      "name": "OFMemno",
+      "label": "From Refno",
+      "type": "text",
+      "section": "Daily Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 6,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    },
+    {
+      "name": "OUMemno",
+      "label": "To",
+      "type": "text",
+      "section": "Daily Deposit Interest",
+      "tab": null,
+      "options": [],
+      "required": null,
+      "readOnly": false,
+      "maxLength": 6,
+      "visibleByDefault": true,
+      "sourceType": "TextBox"
+    }
+  ],
+  "actions": [
+    {
+      "name": "OCalIntt",
+      "label": "Calculate Interest",
+      "handler": "OCalIntt_Click",
+      "kind": "button",
+      "sourceType": "Button",
+      "destinationScreenIds": [],
+      "reportTargets": []
+    }
+  ],
+  "grids": [
+    {
+      "name": "DGO",
+      "columns": []
+    }
+  ],
+  "sections": [
+    {
+      "field": "GBO",
+      "label": "Daily Deposit Interest"
+    }
+  ],
+  "tabs": [],
+  "hasDirectDatabaseCalls": true,
+  "dialogCallCount": 3,
+  "screenConfidence": "source-backed"
+}
