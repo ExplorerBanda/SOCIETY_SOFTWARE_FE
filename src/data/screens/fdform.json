@@ -542,7 +542,9 @@
       "handler": null,
       "kind": "link",
       "sourceType": "LinkLabel",
-      "destinationScreenIds": [],
+      "destinationScreenIds": [
+        "renewfd"
+      ],
       "reportTargets": []
     },
     {

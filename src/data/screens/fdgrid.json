@@ -105,7 +105,9 @@
       "handler": "New_Click",
       "kind": "button",
       "sourceType": "Button",
-      "destinationScreenIds": [],
+      "destinationScreenIds": [
+        "fdform"
+      ],
       "reportTargets": []
     },
     {

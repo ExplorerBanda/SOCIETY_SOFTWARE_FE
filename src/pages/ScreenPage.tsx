@@ -1,5 +1,5 @@
 import { useMemo, useState, type FormEvent, type ReactNode } from "react";
-import { ArrowRight, Check, ChevronDown, Database, FileText, Filter, Layers3, List, Search, ShieldCheck } from "lucide-react";
+import { ArrowRight, Check, ChevronDown, Database, Filter, Layers3, List, Search } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import { screenPath, type LegacyScreen, type ScreenAction, type ScreenField, type ScreenGrid } from "../data/legacy";
 import { useFeedback } from "../components/feedback";
@@ -18,7 +18,7 @@ export default function ScreenPage({ screen, titleOverride, crumbs, embedded = f
 function ScreenHeading({ screen, title, crumbs }: { screen: LegacyScreen; title: string; crumbs?: string[] }) {
   return <div className="page-heading">
     <div className="breadcrumbs"><Link to="/app">Home</Link>{(crumbs ?? [screen.category, title]).map((crumb, index) => <span key={crumb + index}><ChevronDown size={12} />{crumb}</span>)}</div>
-    <div className="heading-row"><div className="heading-icon"><Layers3 size={18} /></div><div><span className="eyebrow">{screen.category}</span><h1>{title}</h1><p>Recovered screen <code>{screen.name}</code></p></div><span className="screen-class-tag">{screen.name}</span></div>
+    <div className="heading-row"><div className="heading-icon"><Layers3 size={18} /></div><div><span className="eyebrow">{screen.category}</span><h1>{title}</h1></div></div>
   </div>;
 }
 
@@ -36,13 +36,38 @@ function ScreenCanvas({ screen, title }: { screen: LegacyScreen; title: string }
   const conditionallyHidden = screen.fields.filter((field) => field.visibleByDefault === false);
   const fieldGroups = useMemo(() => {
     const groups = new Map<string, ScreenField[]>();
+    for (const section of screen.sections) {
+      groups.set(section.label, []);
+    }
     for (const field of fields) {
       const key = field.section || "General information";
       groups.set(key, [...(groups.get(key) ?? []), field]);
     }
-    for (const section of screen.sections) if (!groups.has(section.label)) groups.set(section.label, []);
-    return Array.from(groups.entries());
+    return Array.from(groups.entries()).filter(([label, groupFields]) => groupFields.length > 0 || screen.sections.some(s => s.label === label));
   }, [fields, screen.sections]);
+
+  const structuredSections = useMemo(() => {
+    const result: Array<{ type: "single"; group: string; fields: ScreenField[] } | { type: "address-row"; sections: Array<{ group: string; fields: ScreenField[] }> }> = [];
+    const isAddressSection = (label: string) => /postal address|permanent address|office address/i.test(label);
+    
+    let pendingAddressSections: Array<{ group: string; fields: ScreenField[] }> = [];
+
+    for (const [group, groupFields] of fieldGroups) {
+      if (isAddressSection(group)) {
+        pendingAddressSections.push({ group, fields: groupFields });
+      } else {
+        if (pendingAddressSections.length > 0) {
+          result.push({ type: "address-row", sections: pendingAddressSections });
+          pendingAddressSections = [];
+        }
+        result.push({ type: "single", group, fields: groupFields });
+      }
+    }
+    if (pendingAddressSections.length > 0) {
+      result.push({ type: "address-row", sections: pendingAddressSections });
+    }
+    return result;
+  }, [fieldGroups]);
   const hasFields = screen.fields.length > 0;
   const hasGrid = screen.grids.length > 0;
   const sourceActions = screen.actions;
@@ -50,18 +75,27 @@ function ScreenCanvas({ screen, title }: { screen: LegacyScreen; title: string }
   const notifyUnavailable = (label: string) => notify(label + " is preview-only; nothing was saved or posted.", "warning");
 
   function actionClick(action: ScreenAction) {
-    const label = action.label.toLowerCase();
+    const label = (action.label || action.name || "").trim().toLowerCase();
     if (action.destinationScreenIds?.length === 1) {
       navigate(screenPath(action.destinationScreenIds[0]));
       return;
     }
     if (action.destinationScreenIds && action.destinationScreenIds.length > 1) {
-      showDialog({ title: action.label, message: "This legacy action has multiple source-backed destinations. Open the matching recovered screen from the catalog.", confirmLabel: "Open screen catalog", onConfirm: () => navigate("/app/screens") });
+      showDialog({ title: action.label || action.name, message: "This legacy action has multiple source-backed destinations. Open the matching recovered screen from the catalog.", confirmLabel: "Open screen catalog", onConfirm: () => navigate("/app/screens") });
       return;
     }
-    if (/^(cancel|clear|reset|new|add)$/.test(label)) {
+    if (/^(exit|close|back|quit|return)$/.test(label)) {
+      navigate(-1);
+      return;
+    }
+    if (/^(cancel|clear|reset)$/.test(label)) {
       reset();
       notify(action.label + " preview state cleared. No record was created.");
+      return;
+    }
+    if (/^(new|add)$/.test(label)) {
+      reset();
+      notify(action.label + " form cleared for new record entry in preview mode.");
       return;
     }
     if (/search|find|list|view|refresh/.test(label)) {
@@ -93,45 +127,47 @@ function ScreenCanvas({ screen, title }: { screen: LegacyScreen; title: string }
 
   return (
     <div className="screen-canvas">
-      <div className="screen-summary-row">
-        <div className="screen-summary">
-          <span className="screen-type-icon"><FileText size={17} /></span>
-          <div><strong>{screen.name}</strong><small>{screen.category} · {screen.hasDirectDatabaseCalls ? "Database-backed in legacy source" : "No direct database call found"}</small></div>
-        </div>
-        <div className="screen-stats"><span><b>{screen.fields.length}</b> fields</span><span><b>{screen.actions.length}</b> actions</span><span><b>{screen.grids.length}</b> grids</span></div>
-      </div>
-
-      <div className="callout demo-callout"><ShieldCheck size={16} /><span><b>DEMO DATA.</b> Inputs stay in this browser session. No database, society records, authentication or financial operations are connected.</span></div>
-
       {screen.tabs.length > 0 && <div className="screen-tabs" role="tablist" aria-label={title + " sections"}>
         {screen.tabs.map((tab) => <button key={tab.field} role="tab" aria-selected={activeTab === tab.label} className={activeTab === tab.label ? "active" : ""} onClick={() => setActiveTab(tab.label)}>{tab.label}</button>)}
       </div>}
 
       <form className="screen-form" onSubmit={submitForm}>
         {hasFields ? <div className="form-groups">
-          {fieldGroups.map(([group, groupFields]) => <section className="form-section" key={group}>
-            <div className="form-section-title"><h2>{group}</h2><span>{groupFields.length} source fields</span></div>
-            {groupFields.length ? <div className="field-grid">{groupFields.map((field) => <FieldControl key={field.name} field={field} value={values[field.name]} onChange={(value) => setValues((current) => ({ ...current, [field.name]: value }))} submitted={submitted} />)}</div> : <p className="source-section-empty">Section container recovered; no editable fields could be assigned to it statically.</p>}
-          </section>)}
+          {structuredSections.map((item, idx) => {
+            if (item.type === "address-row") {
+              return (
+                <div className="address-section-row" key={"address-row-" + idx}>
+                  {item.sections.map(({ group, fields: groupFields }) => (
+                    <section className="form-section address-section" key={group}>
+                      <div className="form-section-title"><h2>{group}</h2><span>{groupFields.length} fields</span></div>
+                      <div className="field-grid address-field-grid">
+                        {groupFields.map((field) => <FieldControl key={field.name} field={field} value={values[field.name]} onChange={(value) => setValues((current) => ({ ...current, [field.name]: value }))} submitted={submitted} />)}
+                      </div>
+                    </section>
+                  ))}
+                </div>
+              );
+            }
+            return (
+              <section className="form-section" key={item.group}>
+                <div className="form-section-title"><h2>{item.group}</h2><span>{item.fields.length} fields</span></div>
+                {item.fields.length ? <div className="field-grid">{item.fields.map((field) => <FieldControl key={field.name} field={field} value={values[field.name]} onChange={(value) => setValues((current) => ({ ...current, [field.name]: value }))} submitted={submitted} />)}</div> : <p className="source-section-empty">Section container recovered; no editable fields could be assigned to it statically.</p>}
+              </section>
+            );
+          })}
         </div> : <section className="content-card"><div className="callout warning"><Database size={16} /><span>No editable fields were recovered from this form’s source declaration. The original screen may populate dynamically or require additional decompilation review.</span></div></section>}
         {conditionallyHidden.length > 0 && <details className="conditional-controls"><summary>Controls hidden by default in source ({conditionallyHidden.length})</summary><div className="field-grid">{conditionallyHidden.map((field) => <FieldControl key={field.name} field={field} value={values[field.name]} onChange={(value) => setValues((current) => ({ ...current, [field.name]: value }))} submitted={submitted} />)}</div><small>Shown collapsed because the recovered form marks these controls hidden at initialization.</small></details>}
 
         {sourceActions.length > 0 && <div className="source-action-bar">
-          <div className="action-label"><span>Recovered actions</span><small>Source click handlers are shown where recovered.</small></div>
+          <div className="action-label"><span>Form Actions</span></div>
           <div className="action-buttons">{sourceActions.map((action, index) => <button key={action.name + index} type="button" className={actionStyle(action.label)} onClick={() => actionClick(action)} title={action.handler ? action.handler : "No Click handler recovered"}>
             {action.label || action.name}{action.destinationScreenIds?.length ? <ArrowRight size={13} /> : null}
           </button>)}</div>
         </div>}
 
         {screen.grids.map((grid) => <DataGridPreview key={grid.name} grid={grid} query={gridQuery} setQuery={setGridQuery} page={page} setPage={setPage} sort={sort} setSort={setSort} selected={selected} setSelected={setSelected} />)}
-        {!hasGrid && <div className="form-submit-row"><span><ShieldCheck size={14} />Preview fields only — nothing is persisted.</span><button type="submit" className="primary-button">Validate preview form</button></div>}
+        {!hasGrid && <div className="form-submit-row"><button type="submit" className="primary-button">Validate form inputs</button></div>}
       </form>
-
-      <div className="screen-evidence-row">
-        <span><Database size={14} />{screen.hasDirectDatabaseCalls ? "Legacy source directly calls DAL/SQL helpers." : "No direct DAL/SQL call detected in this screen file."}</span>
-        <span>{screen.dialogCallCount} legacy MessageBox call(s) found</span>
-        <code>{screen.source}:{screen.line}</code>
-      </div>
     </div>
   );
 }
@@ -157,7 +193,11 @@ function FieldControl({ field, value, onChange, submitted }: { field: ScreenFiel
     const inputType = field.type === "date" ? "date" : field.type === "number" ? "number" : "text";
     control = <input id={fieldId} type={inputType} value={typeof value === "string" ? value : ""} onChange={(e) => onChange(e.target.value)} maxLength={item.maxLength ?? undefined} readOnly={item.readOnly} placeholder={field.type === "date" ? "" : "Preview input"} />;
   }
-  return <label className={"field-control " + (field.type === "checkbox" || field.type === "radio" ? "check-field" : "")} htmlFor={fieldId}>
+  const multiline = field.type === "textarea" || item.multiline;
+  const isCheck = field.type === "checkbox" || field.type === "radio";
+  const spanFull = multiline || (typeof item.maxLength === "number" && item.maxLength > 80);
+  const controlClass = ["field-control", isCheck ? "check-field" : "", spanFull ? "span-full" : ""].filter(Boolean).join(" ");
+  return <label className={controlClass} htmlFor={fieldId}>
     <span>{field.label}{field.required === true && <b className="required-mark"> *</b>}{field.required === null && <i className="unknown-required" title="Requiredness not determined from source">?</i>}</span>
     {control}
     {note && <small className="field-error">{note}</small>}

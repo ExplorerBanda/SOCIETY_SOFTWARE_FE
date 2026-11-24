@@ -92,7 +92,9 @@
       "handler": "New_Click",
       "kind": "button",
       "sourceType": "Button",
-      "destinationScreenIds": [],
+      "destinationScreenIds": [
+        "rlform"
+      ],
       "reportTargets": []
     },
     {
@@ -146,7 +148,9 @@
       "handler": "PDC_Click",
       "kind": "button",
       "sourceType": "Button",
-      "destinationScreenIds": [],
+      "destinationScreenIds": [
+        "pdc"
+      ],
       "reportTargets": []
     },
     {

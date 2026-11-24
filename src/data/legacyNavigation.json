@@ -3281,7 +3281,7 @@
       "source": "recovered/decompiled/EasyBook/QuickTC.Forms/MainForm.cs",
       "destinationScreenIds": [],
       "reportTargets": [],
-      "kind": "action"
+      "kind": "group"
     },
     {
       "id": "nav-deposit-loan-registers-ss-master-ssmastertoolstripmenuitem-click-ssmastertoolstripmenuitem",
@@ -3886,7 +3886,7 @@
       "source": "recovered/decompiled/EasyBook/QuickTC.Forms/MainForm.cs",
       "destinationScreenIds": [],
       "reportTargets": [],
-      "kind": "action"
+      "kind": "group"
     },
     {
       "id": "nav-reports-vouchers-list-voucherslisttoolstripmenuitem-click-voucherslist",
@@ -4506,7 +4506,7 @@
       "source": "recovered/decompiled/EasyBook/QuickTC.Forms/MainForm.cs",
       "destinationScreenIds": [],
       "reportTargets": [],
-      "kind": "action"
+      "kind": "group"
     },
     {
       "id": "nav-reports-voucher-wise-ledger-voucherwiseledgertoolstripmenuitem-click-voucherwiseledger",
@@ -6825,7 +6825,7 @@
       "source": "recovered/decompiled/EasyBook/QuickTC.Forms/MainForm.cs",
       "destinationScreenIds": [],
       "reportTargets": [],
-      "kind": "action"
+      "kind": "group"
     },
     {
       "id": "nav-reports-overude-wise-overudewisetoolstripmenuitem-click-overudewisetoolstripmenuitem",
@@ -8230,7 +8230,7 @@
       "source": "recovered/decompiled/EasyBook/QuickTC.Forms/MainForm.cs",
       "destinationScreenIds": [],
       "reportTargets": [],
-      "kind": "action"
+      "kind": "group"
     },
     {
       "id": "nav-reports-reminder-remindertoolstripmenuitem-click-remindertoolstripmenuitem",
@@ -9195,7 +9195,9 @@
       "handler": "dayBookToolStripMenuItem_Click_1",
       "line": 9358,
       "source": "recovered/decompiled/EasyBook/QuickTC.Forms/MainForm.cs",
-      "destinationScreenIds": [],
+      "destinationScreenIds": [
+        "printbooks"
+      ],
       "reportTargets": [],
       "kind": "action"
     },
@@ -9303,7 +9305,7 @@
       "source": "recovered/decompiled/EasyBook/QuickTC.Forms/MainForm.cs",
       "destinationScreenIds": [],
       "reportTargets": [],
-      "kind": "action"
+      "kind": "group"
     },
     {
       "id": "nav-utilities-backup-database-backup-click-backupdatabase",
@@ -9901,7 +9903,9 @@
       "handler": "trialBalanceToolStripMenuItem_Click",
       "line": 6044,
       "source": "recovered/decompiled/EasyBook/QuickTC.Forms/MainForm.cs",
-      "destinationScreenIds": [],
+      "destinationScreenIds": [
+        "printfinal"
+      ],
       "reportTargets": [],
       "kind": "action"
     },
@@ -9917,7 +9921,9 @@
       "handler": "balanceSheetToolStripMenuItem_Click",
       "line": 6048,
       "source": "recovered/decompiled/EasyBook/QuickTC.Forms/MainForm.cs",
-      "destinationScreenIds": [],
+      "destinationScreenIds": [
+        "printfinal"
+      ],
       "reportTargets": [],
       "kind": "action"
     },
@@ -10055,7 +10061,9 @@
       "handler": "button10_Click",
       "line": 8065,
       "source": "recovered/decompiled/EasyBook/QuickTC.Forms/MainForm.cs",
-      "destinationScreenIds": [],
+      "destinationScreenIds": [
+        "printbooks"
+      ],
       "reportTargets": [],
       "kind": "action"
     },

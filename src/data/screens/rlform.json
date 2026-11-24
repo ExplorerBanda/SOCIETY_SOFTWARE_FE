@@ -701,7 +701,9 @@
       "handler": null,
       "kind": "link",
       "sourceType": "LinkLabel",
-      "destinationScreenIds": [],
+      "destinationScreenIds": [
+        "changecontact"
+      ],
       "reportTargets": []
     },
     {

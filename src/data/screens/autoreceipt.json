@@ -577,7 +577,9 @@
       "handler": null,
       "kind": "link",
       "sourceType": "LinkLabel",
-      "destinationScreenIds": [],
+      "destinationScreenIds": [
+        "clearloan"
+      ],
       "reportTargets": []
     },
     {
